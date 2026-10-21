@@ -1,31 +1,5 @@
 [
   {
-    "id": "a",
-    "word": "a",
-    "pos": [
-      "indefinite article"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "하나의",
-      "어떤"
-    ],
-    "examples": [
-      {
-        "en": "I need a cup of tea before work.",
-        "ko": "출근 전에 차 한 잔이 필요해요."
-      },
-      {
-        "en": "Can you bring a clean plate, please?",
-        "ko": "깨끗한 접시 하나 가져다주시겠어요?"
-      },
-      {
-        "en": "She has a new bag for school.",
-        "ko": "그녀는 학교에 가져갈 새 가방이 있어요."
-      }
-    ]
-  },
-  {
     "id": "about",
     "word": "about",
     "pos": [
@@ -656,58 +630,6 @@
       {
         "en": "You made an amazing cake for the school party.",
         "ko": "학교 파티에 정말 멋진 케이크를 만들었네요."
-      }
-    ]
-  },
-  {
-    "id": "an",
-    "word": "an",
-    "pos": [
-      "indefinite article"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "하나의",
-      "어떤"
-    ],
-    "examples": [
-      {
-        "en": "She ate an apple on the way to school.",
-        "ko": "그녀는 학교 가는 길에 사과 하나를 먹었어요."
-      },
-      {
-        "en": "Would you like an egg with your toast?",
-        "ko": "토스트와 함께 달걀 하나 드릴까요?"
-      },
-      {
-        "en": "He found an old photo in the desk drawer.",
-        "ko": "그는 책상 서랍에서 오래된 사진 한 장을 찾았어요."
-      }
-    ]
-  },
-  {
-    "id": "and",
-    "word": "and",
-    "pos": [
-      "conjunction"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그리고",
-      "~와"
-    ],
-    "examples": [
-      {
-        "en": "I bought bread and milk at the store.",
-        "ko": "가게에서 빵과 우유를 샀어요."
-      },
-      {
-        "en": "Would you like tea and cake after lunch?",
-        "ko": "점심 후에 차와 케이크 드실래요?"
-      },
-      {
-        "en": "Take your coat and meet me by the door.",
-        "ko": "코트를 챙기고 문 옆에서 만나요."
       }
     ]
   },
@@ -3085,32 +3007,6 @@
       {
         "en": "Please come by after work and have some tea.",
         "ko": "퇴근 후에 들러서 차를 좀 마시고 가세요."
-      }
-    ]
-  },
-  {
-    "id": "bye",
-    "word": "bye",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "안녕",
-      "잘 가요"
-    ],
-    "examples": [
-      {
-        "en": "She waved and said bye to her friends outside.",
-        "ko": "그녀는 밖에서 친구들에게 손을 흔들며 안녕이라고 했어요."
-      },
-      {
-        "en": "Do you say bye before you leave the office?",
-        "ko": "사무실을 나가기 전에 안녕이라고 인사하나요?"
-      },
-      {
-        "en": "Say bye to Grandma before we get in the car.",
-        "ko": "차에 타기 전에 할머니께 안녕이라고 인사하세요."
       }
     ]
   },
@@ -6136,84 +6032,6 @@
     ]
   },
   {
-    "id": "eight",
-    "word": "eight",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "여덟",
-      "8"
-    ],
-    "examples": [
-      {
-        "en": "Our class starts at eight on Monday morning.",
-        "ko": "우리 수업은 월요일 아침 8시에 시작해요."
-      },
-      {
-        "en": "How many chairs do we need for eight guests?",
-        "ko": "손님 여덟 명에게 의자가 몇 개 필요할까요?"
-      },
-      {
-        "en": "She has eight colored pencils in her case.",
-        "ko": "그녀의 필통에는 색연필이 여덟 자루 있어요."
-      }
-    ]
-  },
-  {
-    "id": "eighteen",
-    "word": "eighteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열여덟",
-      "18"
-    ],
-    "examples": [
-      {
-        "en": "There are eighteen students in our small class.",
-        "ko": "우리 작은 반에는 학생이 열여덟 명 있어요."
-      },
-      {
-        "en": "Does the bus leave at eighteen minutes past five?",
-        "ko": "버스가 5시 18분에 출발하나요?"
-      },
-      {
-        "en": "My cousin has eighteen books about animals.",
-        "ko": "제 사촌은 동물에 관한 책을 열여덟 권 가지고 있어요."
-      }
-    ]
-  },
-  {
-    "id": "eighty",
-    "word": "eighty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "여든",
-      "80"
-    ],
-    "examples": [
-      {
-        "en": "The old clock is worth eighty dollars.",
-        "ko": "그 오래된 시계는 80달러의 가치가 있어요."
-      },
-      {
-        "en": "Can this bus carry eighty people safely?",
-        "ko": "이 버스에 80명이 안전하게 탈 수 있나요?"
-      },
-      {
-        "en": "My grandmother turns eighty this year.",
-        "ko": "할머니는 올해 여든 살이 되세요."
-      }
-    ]
-  },
-  {
     "id": "elephant",
     "word": "elephant",
     "pos": [
@@ -6235,32 +6053,6 @@
       {
         "en": "A young elephant walks beside its mother.",
         "ko": "어린 코끼리가 어미 옆을 걸어요."
-      }
-    ]
-  },
-  {
-    "id": "eleven",
-    "word": "eleven",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열하나",
-      "11"
-    ],
-    "examples": [
-      {
-        "en": "The library closes at eleven on Saturday morning.",
-        "ko": "도서관은 토요일 오전 11시에 문을 닫아요."
-      },
-      {
-        "en": "Are there eleven players on each team?",
-        "ko": "각 팀에 선수가 열한 명씩 있나요?"
-      },
-      {
-        "en": "We invited eleven friends to the picnic.",
-        "ko": "저희는 소풍에 친구 열한 명을 초대했어요."
       }
     ]
   },
@@ -7385,84 +7177,6 @@
     ]
   },
   {
-    "id": "fifteen",
-    "word": "fifteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열다섯",
-      "15"
-    ],
-    "examples": [
-      {
-        "en": "The walk from school takes fifteen minutes.",
-        "ko": "학교에서 걸어오는 데 15분 걸려요."
-      },
-      {
-        "en": "Are there fifteen pages in this short story?",
-        "ko": "이 짧은 이야기책은 15쪽인가요?"
-      },
-      {
-        "en": "My friend bought fifteen apples at the market.",
-        "ko": "제 친구는 시장에서 사과를 열다섯 개 샀어요."
-      }
-    ]
-  },
-  {
-    "id": "fifth",
-    "word": "fifth",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "다섯 번째의",
-      "5분의 1"
-    ],
-    "examples": [
-      {
-        "en": "Our classroom is on the fifth floor of this building.",
-        "ko": "우리 교실은 이 건물 5층에 있어요."
-      },
-      {
-        "en": "Is today the fifth day of your trip?",
-        "ko": "오늘이 여행 다섯째 날인가요?"
-      },
-      {
-        "en": "She finished fifth in the school race.",
-        "ko": "그녀는 학교 경주에서 5등으로 들어왔어요."
-      }
-    ]
-  },
-  {
-    "id": "fifty",
-    "word": "fifty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "쉰",
-      "50"
-    ],
-    "examples": [
-      {
-        "en": "This large box holds fifty books for the library.",
-        "ko": "이 큰 상자에는 도서관 책 50권이 들어가요."
-      },
-      {
-        "en": "Does the bus ticket cost fifty cents?",
-        "ko": "버스표가 50센트인가요?"
-      },
-      {
-        "en": "My parents invited fifty people to their party.",
-        "ko": "부모님은 파티에 50명을 초대하셨어요."
-      }
-    ]
-  },
-  {
     "id": "fill",
     "word": "fill",
     "pos": [
@@ -7709,32 +7423,6 @@
       {
         "en": "We fish by the lake on warm summer mornings.",
         "ko": "저희는 따뜻한 여름 아침에 호숫가에서 낚시해요."
-      }
-    ]
-  },
-  {
-    "id": "five",
-    "word": "five",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "다섯",
-      "5"
-    ],
-    "examples": [
-      {
-        "en": "There are five windows in the large classroom.",
-        "ko": "큰 교실에는 창문이 다섯 개 있어요."
-      },
-      {
-        "en": "Can you wait five minutes near the entrance?",
-        "ko": "입구 근처에서 5분 기다려 주실 수 있나요?"
-      },
-      {
-        "en": "My brother put five coins in the jar.",
-        "ko": "남동생은 병에 동전 다섯 개를 넣었어요."
       }
     ]
   },
@@ -8055,110 +7743,6 @@
       {
         "en": "A heart shape is an easy form to draw.",
         "ko": "하트 모양은 그리기 쉬운 형태예요."
-      }
-    ]
-  },
-  {
-    "id": "forty",
-    "word": "forty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "마흔",
-      "40"
-    ],
-    "examples": [
-      {
-        "en": "There are forty chairs in the school hall.",
-        "ko": "학교 강당에 의자가 마흔 개 있어요."
-      },
-      {
-        "en": "My grandfather is forty years older than me.",
-        "ko": "제 할아버지는 저보다 마흔 살 많으세요."
-      },
-      {
-        "en": "The old clock has forty small marks around its face.",
-        "ko": "오래된 시계 문자판 둘레에는 작은 눈금이 마흔 개 있어요."
-      }
-    ]
-  },
-  {
-    "id": "four",
-    "word": "four",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "넷",
-      "네 개"
-    ],
-    "examples": [
-      {
-        "en": "We need four clean cups for our guests.",
-        "ko": "손님들을 위해 깨끗한 컵 네 개가 필요해요."
-      },
-      {
-        "en": "My little brother has four toy cars today.",
-        "ko": "제 남동생은 오늘 장난감 자동차 네 대를 갖고 있어요."
-      },
-      {
-        "en": "Turn left at the fourth street after the bank.",
-        "ko": "은행 다음 네 번째 거리에서 왼쪽으로 도세요."
-      }
-    ]
-  },
-  {
-    "id": "fourteen",
-    "word": "fourteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열넷",
-      "14"
-    ],
-    "examples": [
-      {
-        "en": "Fourteen students are waiting outside the music room.",
-        "ko": "학생 열네 명이 음악실 밖에서 기다리고 있어요."
-      },
-      {
-        "en": "The cake needs fourteen small candles for the party.",
-        "ko": "파티 케이크에 작은 초 열네 개가 필요해요."
-      },
-      {
-        "en": "My cousin is fourteen and enjoys riding her bike.",
-        "ko": "제 사촌은 열네 살이고 자전거 타기를 좋아해요."
-      }
-    ]
-  },
-  {
-    "id": "fourth",
-    "word": "fourth",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "네 번째의",
-      "네 번째"
-    ],
-    "examples": [
-      {
-        "en": "Our classroom is on the fourth floor of this building.",
-        "ko": "우리 교실은 이 건물의 네 번째 층에 있어요."
-      },
-      {
-        "en": "She finished fourth in the school running race.",
-        "ko": "그녀는 학교 달리기 대회에서 네 번째로 결승선을 통과했어요."
-      },
-      {
-        "en": "The fourth page has a picture of a garden.",
-        "ko": "네 번째 페이지에는 정원 그림이 있어요."
       }
     ]
   },
@@ -8727,33 +8311,6 @@
     ]
   },
   {
-    "id": "goodbye",
-    "word": "goodbye",
-    "pos": [
-      "exclamation",
-      "noun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "안녕히 가세요",
-      "작별 인사"
-    ],
-    "examples": [
-      {
-        "en": "We said goodbye to our guests at the door.",
-        "ko": "우리는 문 앞에서 손님들에게 작별 인사를 했어요."
-      },
-      {
-        "en": "Goodbye, and thank you for visiting our home.",
-        "ko": "안녕히 가세요. 저희 집에 와 주셔서 고마워요."
-      },
-      {
-        "en": "She waved goodbye before the train moved away.",
-        "ko": "기차가 떠나기 전에 그녀는 손을 흔들며 작별 인사를 했어요."
-      }
-    ]
-  },
-  {
     "id": "grandfather",
     "word": "grandfather",
     "pos": [
@@ -9316,33 +8873,6 @@
     ]
   },
   {
-    "id": "he",
-    "word": "he",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그는",
-      "그가",
-      "그를"
-    ],
-    "examples": [
-      {
-        "en": "He walks his dog around the park each evening.",
-        "ko": "그는 매일 저녁 공원에서 강아지를 산책시켜요."
-      },
-      {
-        "en": "I think he left his lunch in the kitchen.",
-        "ko": "그가 부엌에 점심을 두고 간 것 같아요."
-      },
-      {
-        "en": "When did he learn to play the guitar?",
-        "ko": "그는 언제 기타 치는 법을 배웠나요?"
-      }
-    ]
-  },
-  {
     "id": "head",
     "word": "head",
     "pos": [
@@ -9448,34 +8978,6 @@
     ]
   },
   {
-    "id": "hello",
-    "word": "hello",
-    "pos": [
-      "exclamation",
-      "noun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "안녕하세요",
-      "여보세요",
-      "인사"
-    ],
-    "examples": [
-      {
-        "en": "Hello, everyone; please take a seat near the window.",
-        "ko": "여러분, 안녕하세요. 창가에 앉아 주세요."
-      },
-      {
-        "en": "I said hello to my neighbor on the bus.",
-        "ko": "버스에서 이웃에게 인사했어요."
-      },
-      {
-        "en": "She gave a cheerful hello when we arrived.",
-        "ko": "우리가 도착하자 그녀는 밝게 인사했어요."
-      }
-    ]
-  },
-  {
     "id": "help",
     "word": "help",
     "pos": [
@@ -9500,33 +9002,6 @@
       {
         "en": "The map was a big help during our walk.",
         "ko": "그 지도는 산책하는 동안 큰 도움이 됐어요."
-      }
-    ]
-  },
-  {
-    "id": "her",
-    "word": "her",
-    "pos": [
-      "pronoun",
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그녀를",
-      "그녀의"
-    ],
-    "examples": [
-      {
-        "en": "I met her at the library after our lesson.",
-        "ko": "수업이 끝난 뒤 도서관에서 그녀를 만났어요."
-      },
-      {
-        "en": "Her blue bicycle is parked outside the front door.",
-        "ko": "그녀의 파란 자전거가 현관문 밖에 세워져 있어요."
-      },
-      {
-        "en": "Please give her the note before the class begins.",
-        "ko": "수업이 시작하기 전에 그녀에게 쪽지를 전해 주세요."
       }
     ]
   },
@@ -9557,59 +9032,6 @@
     ]
   },
   {
-    "id": "hey",
-    "word": "hey",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "이봐",
-      "안녕",
-      "저기요"
-    ],
-    "examples": [
-      {
-        "en": "Hey, are you coming to the game with us?",
-        "ko": "저기요, 우리와 경기에 갈 건가요?"
-      },
-      {
-        "en": "I called hey across the playground to my friend.",
-        "ko": "놀이터 건너편에 있는 친구에게 이봐 하고 불렀어요."
-      },
-      {
-        "en": "Hey, look at the little bird beside the bench.",
-        "ko": "이봐요, 벤치 옆에 있는 작은 새를 보세요."
-      }
-    ]
-  },
-  {
-    "id": "hi",
-    "word": "hi",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "안녕",
-      "안녕하세요"
-    ],
-    "examples": [
-      {
-        "en": "Hi, I am glad you came to visit today.",
-        "ko": "안녕하세요, 오늘 방문해 주셔서 반가워요."
-      },
-      {
-        "en": "She waved and said hi to the new student.",
-        "ko": "그녀는 새 학생에게 손을 흔들며 인사했어요."
-      },
-      {
-        "en": "My friends often say hi when they pass our house.",
-        "ko": "친구들은 우리 집 앞을 지날 때 자주 인사해요."
-      }
-    ]
-  },
-  {
     "id": "high",
     "word": "high",
     "pos": [
@@ -9635,59 +9057,6 @@
       {
         "en": "The river reached a new high after heavy rain.",
         "ko": "큰비가 온 뒤 강물이 새 최고 수위에 이르렀어요."
-      }
-    ]
-  },
-  {
-    "id": "him",
-    "word": "him",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그를",
-      "그에게"
-    ],
-    "examples": [
-      {
-        "en": "We invited him to join our family picnic tomorrow.",
-        "ko": "우리는 내일 가족 소풍에 그를 초대했어요."
-      },
-      {
-        "en": "I gave him the blue folder after class.",
-        "ko": "수업 후에 그에게 파란 서류철을 건넸어요."
-      },
-      {
-        "en": "Did you see him near the school entrance today?",
-        "ko": "오늘 학교 입구 근처에서 그를 봤나요?"
-      }
-    ]
-  },
-  {
-    "id": "his",
-    "word": "his",
-    "pos": [
-      "determiner",
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그의",
-      "그의 것"
-    ],
-    "examples": [
-      {
-        "en": "His lunch box is still inside the classroom cupboard.",
-        "ko": "그의 도시락통은 아직 교실 찬장 안에 있어요."
-      },
-      {
-        "en": "That red scarf is his, not mine.",
-        "ko": "저 빨간 목도리는 제 것이 아니라 그의 것이에요."
-      },
-      {
-        "en": "We met his parents at the school concert last night.",
-        "ko": "어젯밤 학교 음악회에서 그의 부모님을 만났어요."
       }
     ]
   },
@@ -10138,32 +9507,6 @@
       {
         "en": "The husband carried their sleeping child into the house.",
         "ko": "남편은 잠든 아이를 안고 집으로 들어갔어요."
-      }
-    ]
-  },
-  {
-    "id": "i",
-    "word": "I",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "나",
-      "저"
-    ],
-    "examples": [
-      {
-        "en": "I usually take the bus to work before eight.",
-        "ko": "저는 보통 여덟 시 전에 버스를 타고 출근해요."
-      },
-      {
-        "en": "My sister and I made soup for our guests.",
-        "ko": "제 여동생과 저는 손님들을 위해 수프를 만들었어요."
-      },
-      {
-        "en": "I think this blue scarf matches your coat well.",
-        "ko": "이 파란 목도리가 코트와 잘 어울리는 것 같아요."
       }
     ]
   },
@@ -10638,58 +9981,6 @@
       {
         "en": "How can we get to the island by boat?",
         "ko": "배를 타고 그 섬에 어떻게 갈 수 있나요?"
-      }
-    ]
-  },
-  {
-    "id": "it",
-    "word": "it",
-    "pos": [
-      "noun",
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그것",
-      "날씨·시간 등을 가리키는 말"
-    ],
-    "examples": [
-      {
-        "en": "I found the key, and it was under the sofa.",
-        "ko": "열쇠를 찾았는데 소파 아래에 있었어요."
-      },
-      {
-        "en": "It is cold outside, so take your coat.",
-        "ko": "밖이 추우니 코트를 챙기세요."
-      },
-      {
-        "en": "This soup is delicious; I made it myself.",
-        "ko": "이 수프는 맛있어요. 제가 직접 만들었어요."
-      }
-    ]
-  },
-  {
-    "id": "its",
-    "word": "its",
-    "pos": [
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그것의"
-    ],
-    "examples": [
-      {
-        "en": "The dog wagged its tail when I came home.",
-        "ko": "제가 집에 오자 그 개는 꼬리를 흔들었어요."
-      },
-      {
-        "en": "Our school changed its name last year.",
-        "ko": "우리 학교는 작년에 이름을 바꿨어요."
-      },
-      {
-        "en": "The tree lost its leaves in the cold weather.",
-        "ko": "추운 날씨에 그 나무는 잎을 잃었어요."
       }
     ]
   },
@@ -12330,32 +11621,6 @@
     ]
   },
   {
-    "id": "me",
-    "word": "me",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "나를",
-      "나에게"
-    ],
-    "examples": [
-      {
-        "en": "Please send me the address before you leave.",
-        "ko": "떠나기 전에 주소를 저에게 보내 주세요."
-      },
-      {
-        "en": "My brother gave me a book for my birthday.",
-        "ko": "오빠가 생일 선물로 책을 줬어요."
-      },
-      {
-        "en": "Could you wait for me near the front door?",
-        "ko": "현관문 근처에서 저를 기다려 주시겠어요?"
-      }
-    ]
-  },
-  {
     "id": "meal",
     "word": "meal",
     "pos": [
@@ -13326,32 +12591,6 @@
     ]
   },
   {
-    "id": "my",
-    "word": "my",
-    "pos": [
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "나의",
-      "제"
-    ],
-    "examples": [
-      {
-        "en": "My keys are on the table beside the window.",
-        "ko": "제 열쇠는 창문 옆 탁자 위에 있어요."
-      },
-      {
-        "en": "Can my brother come with us to lunch?",
-        "ko": "제 남동생도 점심 먹으러 같이 가도 될까요?"
-      },
-      {
-        "en": "I left my blue jacket at the small cafe.",
-        "ko": "작은 카페에 제 파란 재킷을 두고 왔어요."
-      }
-    ]
-  },
-  {
     "id": "name",
     "word": "name",
     "pos": [
@@ -13723,112 +12962,6 @@
       {
         "en": "Good night, and see you again tomorrow morning.",
         "ko": "안녕히 주무세요. 내일 아침에 또 봬요."
-      }
-    ]
-  },
-  {
-    "id": "nine",
-    "word": "nine",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "아홉",
-      "9"
-    ],
-    "examples": [
-      {
-        "en": "The train leaves at nine from this station today.",
-        "ko": "기차는 오늘 이 역에서 9시에 출발해요."
-      },
-      {
-        "en": "There are nine clean cups on the kitchen shelf.",
-        "ko": "부엌 선반에 깨끗한 컵이 아홉 개 있어요."
-      },
-      {
-        "en": "Please meet me outside the school at nine.",
-        "ko": "9시에 학교 밖에서 만나 주세요."
-      }
-    ]
-  },
-  {
-    "id": "nineteen",
-    "word": "nineteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열아홉",
-      "19"
-    ],
-    "examples": [
-      {
-        "en": "She has nineteen photos from her trip to the sea.",
-        "ko": "그녀는 바다 여행에서 찍은 사진이 열아홉 장 있어요."
-      },
-      {
-        "en": "The class has nineteen students this year.",
-        "ko": "올해 그 반에는 학생이 열아홉 명 있어요."
-      },
-      {
-        "en": "I counted nineteen apples in the large basket.",
-        "ko": "큰 바구니에 사과가 열아홉 개 있는 걸 셌어요."
-      }
-    ]
-  },
-  {
-    "id": "ninety",
-    "word": "ninety",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "아흔",
-      "90"
-    ],
-    "examples": [
-      {
-        "en": "The bus ride takes about ninety minutes from here.",
-        "ko": "여기서 버스로 약 90분 걸려요."
-      },
-      {
-        "en": "Grandma is ninety and still enjoys her garden.",
-        "ko": "할머니는 아흔 살이신데도 여전히 정원을 즐기세요."
-      },
-      {
-        "en": "This small box costs ninety cents at the store.",
-        "ko": "이 작은 상자는 가게에서 90센트예요."
-      }
-    ]
-  },
-  {
-    "id": "no",
-    "word": "no",
-    "pos": [
-      "exclamation",
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "아니요",
-      "없는",
-      "어떤 ~도 없는"
-    ],
-    "examples": [
-      {
-        "en": "No, I cannot stay for coffee after the meeting.",
-        "ko": "아니요, 회의 후에 커피를 마시고 갈 수 없어요."
-      },
-      {
-        "en": "There is no milk left in the fridge now.",
-        "ko": "지금 냉장고에 우유가 하나도 남지 않았어요."
-      },
-      {
-        "en": "We have no time to stop at the store.",
-        "ko": "가게에 들를 시간이 없어요."
       }
     ]
   },
@@ -14311,62 +13444,6 @@
     ]
   },
   {
-    "id": "oh",
-    "word": "oh",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "아",
-      "어머",
-      "아, 그렇군요"
-    ],
-    "examples": [
-      {
-        "en": "Oh, I left my umbrella at the small cafe.",
-        "ko": "아, 작은 카페에 우산을 두고 왔어요."
-      },
-      {
-        "en": "Oh, is your brother coming to dinner too?",
-        "ko": "아, 남동생도 저녁 식사에 오는군요?"
-      },
-      {
-        "en": "Oh no, the store closes in five minutes!",
-        "ko": "아이고, 가게가 5분 뒤에 문을 닫아요!"
-      }
-    ]
-  },
-  {
-    "id": "ok",
-    "word": "OK",
-    "pos": [
-      "exclamation",
-      "adjective",
-      "adverb"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "알았어요",
-      "괜찮은",
-      "괜찮게"
-    ],
-    "examples": [
-      {
-        "en": "OK, I will meet you outside the station at six.",
-        "ko": "알았어요. 6시에 역 밖에서 만나요."
-      },
-      {
-        "en": "Is this small table OK for your new room?",
-        "ko": "이 작은 탁자가 새 방에 괜찮을까요?"
-      },
-      {
-        "en": "The soup tastes OK, but it needs more salt.",
-        "ko": "수프 맛은 괜찮지만 소금이 더 필요해요."
-      }
-    ]
-  },
-  {
     "id": "old",
     "word": "old",
     "pos": [
@@ -14643,32 +13720,6 @@
     ]
   },
   {
-    "id": "or",
-    "word": "or",
-    "pos": [
-      "conjunction"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "또는",
-      "아니면"
-    ],
-    "examples": [
-      {
-        "en": "Would you like tea or coffee with your breakfast?",
-        "ko": "아침 식사에 차나 커피 드릴까요?"
-      },
-      {
-        "en": "We can walk to the store or take the bus.",
-        "ko": "가게까지 걸어가거나 버스를 탈 수 있어요."
-      },
-      {
-        "en": "Call me tonight, or send a short message instead.",
-        "ko": "오늘 밤 전화하시거나 짧은 메시지를 보내 주세요."
-      }
-    ]
-  },
-  {
     "id": "orange",
     "word": "orange",
     "pos": [
@@ -14748,32 +13799,6 @@
       {
         "en": "I will take the other bus if this one is full.",
         "ko": "이 버스가 꽉 차면 다른 버스를 탈게요."
-      }
-    ]
-  },
-  {
-    "id": "our",
-    "word": "our",
-    "pos": [
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "우리의",
-      "저희의"
-    ],
-    "examples": [
-      {
-        "en": "Our parents are coming to dinner this Sunday evening.",
-        "ko": "이번 일요일 저녁에 저희 부모님이 저녁 식사하러 오세요."
-      },
-      {
-        "en": "Where did we leave our bags after the train ride?",
-        "ko": "기차를 타고 난 뒤 저희 가방을 어디에 두었죠?"
-      },
-      {
-        "en": "Our new class meets in the room by the stairs.",
-        "ko": "저희 새 수업은 계단 옆 방에서 열려요."
       }
     ]
   },
@@ -17901,84 +16926,6 @@
     ]
   },
   {
-    "id": "seven",
-    "word": "seven",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "일곱",
-      "7"
-    ],
-    "examples": [
-      {
-        "en": "There are seven days in a week, from Monday onward.",
-        "ko": "월요일부터 세면 일주일은 7일이에요."
-      },
-      {
-        "en": "Our train leaves at seven in the evening today.",
-        "ko": "저희 기차는 오늘 저녁 7시에 출발해요."
-      },
-      {
-        "en": "She brought seven cookies for the children after school.",
-        "ko": "그분은 방과 후 아이들을 위해 쿠키 일곱 개를 가져왔어요."
-      }
-    ]
-  },
-  {
-    "id": "seventeen",
-    "word": "seventeen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열일곱",
-      "17"
-    ],
-    "examples": [
-      {
-        "en": "My cousin is seventeen and starts college next year.",
-        "ko": "제 사촌은 열일곱 살이고 내년에 대학에 들어가요."
-      },
-      {
-        "en": "The shop closes at seventeen hundred on weekdays.",
-        "ko": "그 가게는 평일 오후 5시에 문을 닫아요."
-      },
-      {
-        "en": "We counted seventeen chairs around the long table.",
-        "ko": "저희는 긴 탁자 주변의 의자 열일곱 개를 세었어요."
-      }
-    ]
-  },
-  {
-    "id": "seventy",
-    "word": "seventy",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "칠십",
-      "70"
-    ],
-    "examples": [
-      {
-        "en": "The old bridge is nearly seventy years old now.",
-        "ko": "그 오래된 다리는 이제 거의 70년이 됐어요."
-      },
-      {
-        "en": "She scored seventy points on the final test.",
-        "ko": "그분은 기말 시험에서 70점을 받았어요."
-      },
-      {
-        "en": "About seventy people came to the school concert.",
-        "ko": "학교 음악회에 약 70명이 왔어요."
-      }
-    ]
-  },
-  {
     "id": "share",
     "word": "share",
     "pos": [
@@ -18002,32 +16949,6 @@
       {
         "en": "Each person received an equal share of the prize.",
         "ko": "각자 상금에서 같은 몫을 받았어요."
-      }
-    ]
-  },
-  {
-    "id": "she",
-    "word": "she",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그녀",
-      "그분"
-    ],
-    "examples": [
-      {
-        "en": "She works at the bookshop beside our school.",
-        "ko": "그분은 우리 학교 옆 서점에서 일해요."
-      },
-      {
-        "en": "I think she left her umbrella on the bus.",
-        "ko": "그분이 버스에 우산을 두고 내린 것 같아요."
-      },
-      {
-        "en": "When she arrives, please show her the new room.",
-        "ko": "그분이 도착하면 새 방을 보여 주세요."
       }
     ]
   },
@@ -18448,84 +17369,6 @@
       {
         "en": "We stayed calm in a difficult situation at work.",
         "ko": "저희는 직장에서 어려운 상황에도 침착함을 유지했어요."
-      }
-    ]
-  },
-  {
-    "id": "six",
-    "word": "six",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "여섯",
-      "6"
-    ],
-    "examples": [
-      {
-        "en": "There are six clean cups on the kitchen shelf.",
-        "ko": "부엌 선반에 깨끗한 컵이 여섯 개 있어요."
-      },
-      {
-        "en": "The movie begins at six, so leave soon.",
-        "ko": "영화가 6시에 시작하니 곧 출발하세요."
-      },
-      {
-        "en": "He bought six oranges for the fruit salad.",
-        "ko": "그분은 과일 샐러드에 넣을 오렌지 여섯 개를 샀어요."
-      }
-    ]
-  },
-  {
-    "id": "sixteen",
-    "word": "sixteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열여섯",
-      "16"
-    ],
-    "examples": [
-      {
-        "en": "My niece turns sixteen during the school holidays.",
-        "ko": "조카는 방학 중에 열여섯 살이 돼요."
-      },
-      {
-        "en": "Sixteen students joined the afternoon art class today.",
-        "ko": "오늘 오후 미술 수업에 학생 열여섯 명이 참여했어요."
-      },
-      {
-        "en": "The bus stop is sixteen minutes from our house.",
-        "ko": "버스 정류장은 저희 집에서 16분 거리에 있어요."
-      }
-    ]
-  },
-  {
-    "id": "sixty",
-    "word": "sixty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "예순",
-      "60"
-    ],
-    "examples": [
-      {
-        "en": "My grandmother celebrated her sixtieth birthday last spring.",
-        "ko": "할머니는 지난봄에 예순 번째 생신을 축하하셨어요."
-      },
-      {
-        "en": "The shop sells this old table for sixty dollars.",
-        "ko": "그 가게는 이 오래된 탁자를 60달러에 팔아요."
-      },
-      {
-        "en": "We waited nearly sixty minutes for the next bus.",
-        "ko": "저희는 다음 버스를 거의 60분 동안 기다렸어요."
       }
     ]
   },
@@ -20295,31 +19138,6 @@
     ]
   },
   {
-    "id": "ten",
-    "word": "ten",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열"
-    ],
-    "examples": [
-      {
-        "en": "There are ten clean towels in the bathroom cupboard.",
-        "ko": "욕실 수납장에 깨끗한 수건이 열 장 있어요."
-      },
-      {
-        "en": "Our class begins at ten on Monday morning.",
-        "ko": "저희 수업은 월요일 오전 10시에 시작해요."
-      },
-      {
-        "en": "He bought ten oranges for the school picnic.",
-        "ko": "그는 학교 소풍을 위해 오렌지 열 개를 샀어요."
-      }
-    ]
-  },
-  {
     "id": "tennis",
     "word": "tennis",
     "pos": [
@@ -20531,32 +19349,6 @@
     ]
   },
   {
-    "id": "the",
-    "word": "the",
-    "pos": [
-      "definite article"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그",
-      "정해진 대상을 가리키는 말"
-    ],
-    "examples": [
-      {
-        "en": "The keys are on the small table by the door.",
-        "ko": "열쇠는 문 옆의 작은 탁자 위에 있어요."
-      },
-      {
-        "en": "Please close the window before the rain starts.",
-        "ko": "비가 오기 전에 창문을 닫아 주세요."
-      },
-      {
-        "en": "We enjoyed the music at the evening concert.",
-        "ko": "저희는 저녁 음악회에서 그 음악을 즐겼어요."
-      }
-    ]
-  },
-  {
     "id": "theater",
     "word": "theater",
     "pos": [
@@ -20579,57 +19371,6 @@
       {
         "en": "We bought tickets for the new show at the theater.",
         "ko": "저희는 극장에서 새 공연 표를 샀어요."
-      }
-    ]
-  },
-  {
-    "id": "their",
-    "word": "their",
-    "pos": [
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그들의"
-    ],
-    "examples": [
-      {
-        "en": "Their garden looks lovely after the spring flowers bloom.",
-        "ko": "그들의 정원은 봄꽃이 피고 나니 아름다워 보여요."
-      },
-      {
-        "en": "The children packed their books into the school bags.",
-        "ko": "아이들은 책을 학교 가방에 챙겨 넣었어요."
-      },
-      {
-        "en": "Their new house has a bright room upstairs.",
-        "ko": "그들의 새집에는 위층에 밝은 방이 있어요."
-      }
-    ]
-  },
-  {
-    "id": "them",
-    "word": "them",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그들을",
-      "그들에게"
-    ],
-    "examples": [
-      {
-        "en": "I gave them fresh apples from our small garden.",
-        "ko": "저는 그들에게 저희 작은 정원에서 딴 신선한 사과를 줬어요."
-      },
-      {
-        "en": "We saw them waiting beside the bus stop.",
-        "ko": "저희는 그들이 버스 정류장 옆에서 기다리는 것을 봤어요."
-      },
-      {
-        "en": "Please bring them inside before the evening rain.",
-        "ko": "저녁 비가 오기 전에 그것들을 안으로 가져와 주세요."
       }
     ]
   },
@@ -20682,32 +19423,6 @@
       {
         "en": "We stayed there until the last bus arrived.",
         "ko": "저희는 마지막 버스가 도착할 때까지 거기에 머물렀어요."
-      }
-    ]
-  },
-  {
-    "id": "they",
-    "word": "they",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "그들",
-      "그것들"
-    ],
-    "examples": [
-      {
-        "en": "They are cooking dinner together in the small kitchen.",
-        "ko": "그들은 작은 부엌에서 함께 저녁을 준비하고 있어요."
-      },
-      {
-        "en": "I found the books, and they were under the chair.",
-        "ko": "책들을 찾았는데 그것들은 의자 아래에 있었어요."
-      },
-      {
-        "en": "They visit their grandparents every other Sunday afternoon.",
-        "ko": "그들은 격주 일요일 오후마다 조부모님을 찾아뵈어요."
       }
     ]
   },
@@ -20816,56 +19531,6 @@
     ]
   },
   {
-    "id": "thirteen",
-    "word": "thirteen",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열셋"
-    ],
-    "examples": [
-      {
-        "en": "There are thirteen students in our afternoon art class.",
-        "ko": "저희 오후 미술 수업에는 학생이 열세 명 있어요."
-      },
-      {
-        "en": "She turned thirteen and invited friends for cake.",
-        "ko": "그녀는 열세 살이 되어 친구들을 케이크 파티에 초대했어요."
-      },
-      {
-        "en": "The small box holds thirteen colored pencils neatly.",
-        "ko": "작은 상자에 색연필 열세 자루가 가지런히 들어 있어요."
-      }
-    ]
-  },
-  {
-    "id": "thirty",
-    "word": "thirty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "서른"
-    ],
-    "examples": [
-      {
-        "en": "Our train leaves in thirty minutes from platform two.",
-        "ko": "저희 기차는 2번 승강장에서 30분 뒤에 출발해요."
-      },
-      {
-        "en": "The recipe needs thirty small pieces of fresh fruit.",
-        "ko": "이 조리법에는 신선한 과일 작은 조각 서른 개가 필요해요."
-      },
-      {
-        "en": "He saved thirty dollars for a new school bag.",
-        "ko": "그는 새 책가방을 사려고 30달러를 모았어요."
-      }
-    ]
-  },
-  {
     "id": "this",
     "word": "this",
     "pos": [
@@ -20916,31 +19581,6 @@
       {
         "en": "This old book costs three thousand won at the shop.",
         "ko": "이 오래된 책은 가게에서 3천 원이에요."
-      }
-    ]
-  },
-  {
-    "id": "three",
-    "word": "three",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "셋"
-    ],
-    "examples": [
-      {
-        "en": "We need three clean bowls for the vegetable soup.",
-        "ko": "채소 수프를 위해 깨끗한 그릇 세 개가 필요해요."
-      },
-      {
-        "en": "The bus arrives every three hours on Sundays.",
-        "ko": "일요일에는 버스가 세 시간마다 와요."
-      },
-      {
-        "en": "She bought three yellow flowers at the market.",
-        "ko": "그녀는 시장에서 노란 꽃 세 송이를 샀어요."
       }
     ]
   },
@@ -21712,58 +20352,6 @@
     ]
   },
   {
-    "id": "twelve",
-    "word": "twelve",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "열둘",
-      "열두"
-    ],
-    "examples": [
-      {
-        "en": "Twelve people signed up for the cooking lesson.",
-        "ko": "열두 분이 요리 수업에 신청하셨어요."
-      },
-      {
-        "en": "The clock shows twelve, so it is lunchtime.",
-        "ko": "시계가 열두 시를 가리키니 점심시간이에요."
-      },
-      {
-        "en": "She bought twelve oranges for the family picnic.",
-        "ko": "그분은 가족 소풍에 가져갈 오렌지 열두 개를 샀어요."
-      }
-    ]
-  },
-  {
-    "id": "twenty",
-    "word": "twenty",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "스물",
-      "이십"
-    ],
-    "examples": [
-      {
-        "en": "The bus takes about twenty minutes to reach downtown.",
-        "ko": "버스로 시내까지 가는 데 20분쯤 걸려요."
-      },
-      {
-        "en": "He saved twenty dollars for a new notebook.",
-        "ko": "그분은 새 공책을 사려고 20달러를 모았어요."
-      },
-      {
-        "en": "Twenty students joined the music club this year.",
-        "ko": "올해 학생 스무 명이 음악 동아리에 들어왔어요."
-      }
-    ]
-  },
-  {
     "id": "twice",
     "word": "twice",
     "pos": [
@@ -21786,32 +20374,6 @@
       {
         "en": "I visit my grandparents twice each month.",
         "ko": "저는 매달 두 번 조부모님을 찾아뵈어요."
-      }
-    ]
-  },
-  {
-    "id": "two",
-    "word": "two",
-    "pos": [
-      "number"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "둘",
-      "두"
-    ],
-    "examples": [
-      {
-        "en": "We need two clean cups for the coffee.",
-        "ko": "커피를 마시려면 깨끗한 컵 두 개가 필요해요."
-      },
-      {
-        "en": "Two buses stop outside the library every hour.",
-        "ko": "매시간 버스 두 대가 도서관 밖에 정차해요."
-      },
-      {
-        "en": "She has two older brothers and one sister.",
-        "ko": "그분에게는 오빠 두 명과 여동생 한 명이 있어요."
       }
     ]
   },
@@ -22055,32 +20617,6 @@
       {
         "en": "We keep the upstairs rooms cool in summer.",
         "ko": "저희는 여름에 위층 방들을 시원하게 유지해요."
-      }
-    ]
-  },
-  {
-    "id": "us",
-    "word": "us",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "우리에게",
-      "우리를"
-    ],
-    "examples": [
-      {
-        "en": "Could you show us where the nearest bank is?",
-        "ko": "가장 가까운 은행이 어디인지 저희에게 알려 주시겠어요?"
-      },
-      {
-        "en": "The guide took us through the old town center.",
-        "ko": "안내자께서 저희를 오래된 시내 중심가로 데려가셨어요."
-      },
-      {
-        "en": "Please save us a seat near the front.",
-        "ko": "앞쪽에 저희 자리를 하나 맡아 주세요."
       }
     ]
   },
@@ -22647,32 +21183,6 @@
       {
         "en": "The new shop is way better than the old one.",
         "ko": "새 가게가 예전 가게보다 훨씬 더 좋아요."
-      }
-    ]
-  },
-  {
-    "id": "we",
-    "word": "we",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "우리",
-      "저희"
-    ],
-    "examples": [
-      {
-        "en": "We are meeting our friends outside the movie theater.",
-        "ko": "저희는 영화관 밖에서 친구들을 만날 거예요."
-      },
-      {
-        "en": "We need more time to finish this simple puzzle.",
-        "ko": "저희는 이 간단한 퍼즐을 끝내려면 시간이 더 필요해요."
-      },
-      {
-        "en": "Can we sit beside the window during lunch?",
-        "ko": "점심 식사 동안 창가에 앉아도 될까요?"
       }
     ]
   },
@@ -23620,32 +22130,6 @@
     ]
   },
   {
-    "id": "yeah",
-    "word": "yeah",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "응",
-      "네"
-    ],
-    "examples": [
-      {
-        "en": "Yeah, I can bring some fruit to the picnic.",
-        "ko": "네, 소풍에 과일을 좀 가져갈 수 있어요."
-      },
-      {
-        "en": "Did you enjoy the new music class? Yeah, I did.",
-        "ko": "새 음악 수업이 재미있었어요? 네, 재미있었어요."
-      },
-      {
-        "en": "Yeah, the library is just across this quiet street.",
-        "ko": "네, 도서관은 이 조용한 길을 건너면 바로 있어요."
-      }
-    ]
-  },
-  {
     "id": "year",
     "word": "year",
     "pos": [
@@ -23700,33 +22184,6 @@
     ]
   },
   {
-    "id": "yes",
-    "word": "yes",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "네",
-      "예",
-      "그렇습니다"
-    ],
-    "examples": [
-      {
-        "en": "Yes, we have your size in the back room.",
-        "ko": "네, 뒤쪽 방에 손님 치수가 있어요."
-      },
-      {
-        "en": "Would you like another cup of tea? Yes, please.",
-        "ko": "차를 한 잔 더 드릴까요? 네, 주세요."
-      },
-      {
-        "en": "She said yes when they asked about dinner.",
-        "ko": "저녁 식사에 관해 물었을 때 그분은 좋다고 하셨어요."
-      }
-    ]
-  },
-  {
     "id": "yesterday",
     "word": "yesterday",
     "pos": [
@@ -23750,33 +22207,6 @@
       {
         "en": "We spoke about yesterday on our walk home.",
         "ko": "저희는 집에 걸어가며 어제 있었던 일에 관해 이야기했어요."
-      }
-    ]
-  },
-  {
-    "id": "you",
-    "word": "you",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "너",
-      "당신",
-      "여러분"
-    ],
-    "examples": [
-      {
-        "en": "You can leave your bags beside the front desk.",
-        "ko": "가방은 안내 데스크 옆에 두셔도 돼요."
-      },
-      {
-        "en": "I will call you when the bus gets here.",
-        "ko": "버스가 도착하면 전화드릴게요."
-      },
-      {
-        "en": "You learn new things every time you travel.",
-        "ko": "여행할 때마다 새로운 것을 배우게 돼요."
       }
     ]
   },
@@ -23805,59 +22235,6 @@
       {
         "en": "The mother bird fed her young in the nest.",
         "ko": "어미 새가 둥지에서 새끼들에게 먹이를 줬어요."
-      }
-    ]
-  },
-  {
-    "id": "your",
-    "word": "your",
-    "pos": [
-      "determiner"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "당신의",
-      "너의",
-      "여러분의"
-    ],
-    "examples": [
-      {
-        "en": "Please write your name at the top of this page.",
-        "ko": "이 페이지 맨 위에 성함을 써 주세요."
-      },
-      {
-        "en": "Your soup is ready on the kitchen table.",
-        "ko": "수프가 부엌 식탁에 준비되어 있어요."
-      },
-      {
-        "en": "I like your new shoes with the green laces.",
-        "ko": "초록색 끈이 달린 새 신발이 마음에 들어요."
-      }
-    ]
-  },
-  {
-    "id": "yourself",
-    "word": "yourself",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A1",
-    "meanings": [
-      "당신 자신",
-      "직접"
-    ],
-    "examples": [
-      {
-        "en": "You can make the sandwich yourself with these ingredients.",
-        "ko": "이 재료들로 샌드위치를 직접 만드실 수 있어요."
-      },
-      {
-        "en": "Please take care of yourself during the busy week.",
-        "ko": "바쁜 한 주 동안 몸 잘 챙기세요."
-      },
-      {
-        "en": "Did you enjoy yourself at the family picnic yesterday?",
-        "ko": "어제 가족 소풍에서 즐겁게 보내셨어요?"
       }
     ]
   },
@@ -24303,32 +22680,6 @@
       {
         "en": "She voted against the plan at the meeting.",
         "ko": "그분은 회의에서 그 계획에 반대하는 표를 던졌어요."
-      }
-    ]
-  },
-  {
-    "id": "ah",
-    "word": "ah",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "아",
-      "아하"
-    ],
-    "examples": [
-      {
-        "en": "Ah, now I understand why the door is locked.",
-        "ko": "아, 이제 문이 잠긴 이유를 알겠어요."
-      },
-      {
-        "en": "Ah! This tea is much hotter than I expected.",
-        "ko": "아! 이 차는 생각보다 훨씬 뜨겁네요."
-      },
-      {
-        "en": "Ah, there you are; we saved you a seat.",
-        "ko": "아, 여기 계셨군요. 자리를 남겨 두었어요."
       }
     ]
   },
@@ -32587,57 +30938,6 @@
     ]
   },
   {
-    "id": "hers",
-    "word": "hers",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "그녀의 것"
-    ],
-    "examples": [
-      {
-        "en": "That blue scarf is hers, so please return it.",
-        "ko": "저 파란 목도리는 그녀의 것이니 돌려주세요."
-      },
-      {
-        "en": "My bag is here, but hers is by the door.",
-        "ko": "제 가방은 여기 있고 그녀의 가방은 문 옆에 있어요."
-      },
-      {
-        "en": "The final choice was hers after our long discussion.",
-        "ko": "긴 논의 끝에 최종 선택은 그녀가 했어요."
-      }
-    ]
-  },
-  {
-    "id": "herself",
-    "word": "herself",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "그녀 자신",
-      "직접"
-    ],
-    "examples": [
-      {
-        "en": "She made the birthday card herself this afternoon.",
-        "ko": "그녀는 오늘 오후 생일 카드를 직접 만들었어요."
-      },
-      {
-        "en": "The girl introduced herself to the new class.",
-        "ko": "그 소녀는 새 반 친구들에게 자신을 소개했어요."
-      },
-      {
-        "en": "She found herself alone in the quiet library.",
-        "ko": "그녀는 조용한 도서관에 혼자 있는 자신을 발견했어요."
-      }
-    ]
-  },
-  {
     "id": "hide",
     "word": "hide",
     "pos": [
@@ -32714,32 +31014,6 @@
       {
         "en": "The children rolled their balls down the grassy hill.",
         "ko": "아이들은 잔디 언덕 아래로 공을 굴렸어요."
-      }
-    ]
-  },
-  {
-    "id": "himself",
-    "word": "himself",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "그 자신",
-      "직접"
-    ],
-    "examples": [
-      {
-        "en": "He fixed the broken shelf himself on Saturday.",
-        "ko": "그는 토요일에 부서진 선반을 직접 고쳤어요."
-      },
-      {
-        "en": "The boy taught himself to play a simple song.",
-        "ko": "그 소년은 간단한 곡을 연주하는 법을 독학했어요."
-      },
-      {
-        "en": "He found himself waiting alone outside the station.",
-        "ko": "그는 역 밖에서 혼자 기다리고 있는 자신을 발견했어요."
       }
     ]
   },
@@ -33775,32 +32049,6 @@
       {
         "en": "Please check every item before paying at the counter.",
         "ko": "계산대에서 결제하기 전에 물건을 모두 확인해 주세요."
-      }
-    ]
-  },
-  {
-    "id": "itself",
-    "word": "itself",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "그 자체",
-      "스스로"
-    ],
-    "examples": [
-      {
-        "en": "The door closed by itself during the windy night.",
-        "ko": "바람이 많이 분 밤에 문이 저절로 닫혔어요."
-      },
-      {
-        "en": "The town itself is small, but the beach is lovely.",
-        "ko": "마을 자체는 작지만 해변은 아름다워요."
-      },
-      {
-        "en": "The machine cleans itself after each use.",
-        "ko": "그 기계는 사용할 때마다 스스로 청소해요."
       }
     ]
   },
@@ -35573,33 +33821,6 @@
     ]
   },
   {
-    "id": "mine",
-    "word": "mine",
-    "pos": [
-      "pronoun",
-      "noun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "내 것",
-      "광산"
-    ],
-    "examples": [
-      {
-        "en": "Your cup is blue, but mine is green.",
-        "ko": "당신 컵은 파란색이고 제 것은 초록색이에요."
-      },
-      {
-        "en": "His uncle worked in a coal mine nearby.",
-        "ko": "그의 삼촌은 근처 탄광에서 일했어요."
-      },
-      {
-        "en": "Is that lunch box yours or mine?",
-        "ko": "저 도시락은 당신 것인가요, 제 것인가요?"
-      }
-    ]
-  },
-  {
     "id": "mirror",
     "word": "mirror",
     "pos": [
@@ -35856,32 +34077,6 @@
       {
         "en": "Which musician would you like to hear tonight?",
         "ko": "오늘 밤 어떤 음악가의 연주를 듣고 싶으세요?"
-      }
-    ]
-  },
-  {
-    "id": "myself",
-    "word": "myself",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "나 자신",
-      "직접"
-    ],
-    "examples": [
-      {
-        "en": "I made this birthday card myself at home.",
-        "ko": "제가 집에서 이 생일 카드를 직접 만들었어요."
-      },
-      {
-        "en": "I hurt myself while carrying the heavy bag.",
-        "ko": "무거운 가방을 들다가 제가 다쳤어요."
-      },
-      {
-        "en": "I will introduce myself before the class begins.",
-        "ko": "수업이 시작하기 전에 제 소개를 할게요."
       }
     ]
   },
@@ -36651,32 +34846,6 @@
       {
         "en": "Please keep the original and send me a copy.",
         "ko": "원본은 보관하고 사본을 보내 주세요."
-      }
-    ]
-  },
-  {
-    "id": "ourselves",
-    "word": "ourselves",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "우리 자신",
-      "직접"
-    ],
-    "examples": [
-      {
-        "en": "We made the dinner ourselves without any help.",
-        "ko": "우리는 아무 도움 없이 직접 저녁을 만들었어요."
-      },
-      {
-        "en": "We enjoyed ourselves at the beach all afternoon.",
-        "ko": "우리는 오후 내내 해변에서 즐겁게 보냈어요."
-      },
-      {
-        "en": "We should ask ourselves what we really need.",
-        "ko": "우리에게 정말 필요한 것이 무엇인지 자문해야 해요."
       }
     ]
   },
@@ -42854,32 +41023,6 @@
     ]
   },
   {
-    "id": "themselves",
-    "word": "themselves",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "그들 자신",
-      "그들끼리"
-    ],
-    "examples": [
-      {
-        "en": "The children made the sandwiches themselves this morning.",
-        "ko": "아이들은 오늘 아침 샌드위치를 직접 만들었어요."
-      },
-      {
-        "en": "They introduced themselves to the new neighbors politely.",
-        "ko": "그들은 새 이웃들에게 예의 바르게 자신들을 소개했어요."
-      },
-      {
-        "en": "The twins often walk to school by themselves.",
-        "ko": "그 쌍둥이는 종종 둘이서 학교까지 걸어가요."
-      }
-    ]
-  },
-  {
     "id": "thick",
     "word": "thick",
     "pos": [
@@ -44775,32 +42918,6 @@
     ]
   },
   {
-    "id": "wow",
-    "word": "wow",
-    "pos": [
-      "exclamation"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "와",
-      "우와"
-    ],
-    "examples": [
-      {
-        "en": "Wow, your garden looks beautiful after all that work.",
-        "ko": "와, 그렇게 애쓰시더니 정원이 정말 아름다워졌네요."
-      },
-      {
-        "en": "Wow, this cake tastes even better than it looks.",
-        "ko": "와, 이 케이크는 보기보다 맛이 더 좋네요."
-      },
-      {
-        "en": "Wow, the train arrived exactly on time today.",
-        "ko": "와, 오늘 기차가 정확히 제시간에 도착했어요."
-      }
-    ]
-  },
-  {
     "id": "yet",
     "word": "yet",
     "pos": [
@@ -44825,32 +42942,6 @@
       {
         "en": "Have you finished your homework yet this evening?",
         "ko": "오늘 저녁 숙제를 벌써 끝냈나요?"
-      }
-    ]
-  },
-  {
-    "id": "yours",
-    "word": "yours",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "A2",
-    "meanings": [
-      "당신의 것",
-      "너희의 것"
-    ],
-    "examples": [
-      {
-        "en": "This blue umbrella is yours, and the red one is mine.",
-        "ko": "이 파란 우산은 당신 것이고, 빨간 우산은 제 거예요."
-      },
-      {
-        "en": "I found a scarf that looks just like yours.",
-        "ko": "당신 것과 꼭 닮은 목도리를 찾았어요."
-      },
-      {
-        "en": "Is the seat by the window yours for this trip?",
-        "ko": "이번 여행에서 창가 자리가 당신 자리인가요?"
       }
     ]
   },
@@ -55653,31 +53744,6 @@
     ]
   },
   {
-    "id": "ours",
-    "word": "ours",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "B1",
-    "meanings": [
-      "우리의 것"
-    ],
-    "examples": [
-      {
-        "en": "Their garden is larger, but ours gets more sunlight.",
-        "ko": "그들의 정원은 더 크지만 우리 정원은 햇빛을 더 많이 받아요."
-      },
-      {
-        "en": "Is this blue suitcase ours or theirs?",
-        "ko": "이 파란 여행 가방은 우리 것인가요, 그들 것인가요?"
-      },
-      {
-        "en": "We brought our cups, so those clean ones are ours.",
-        "ko": "저희가 컵을 가져왔으니 저 깨끗한 컵들이 저희 거예요."
-      }
-    ]
-  },
-  {
     "id": "outdoor",
     "word": "outdoor",
     "pos": [
@@ -61281,32 +59347,6 @@
     ]
   },
   {
-    "id": "theirs",
-    "word": "theirs",
-    "pos": [
-      "pronoun"
-    ],
-    "cefr": "B1",
-    "meanings": [
-      "그들의 것",
-      "그 사람들의 것"
-    ],
-    "examples": [
-      {
-        "en": "Those blue umbrellas are theirs, not ours.",
-        "ko": "저 파란 우산들은 우리 것이 아니라 그들 거예요."
-      },
-      {
-        "en": "Our garden is small, but theirs is much larger.",
-        "ko": "우리 정원은 작지만 그들의 정원은 훨씬 커요."
-      },
-      {
-        "en": "The choice is theirs, so let's wait for an answer.",
-        "ko": "선택은 그들에게 달렸으니 답을 기다려 봐요."
-      }
-    ]
-  },
-  {
     "id": "theme",
     "word": "theme",
     "pos": [
@@ -63432,6 +61472,58 @@
     ]
   },
   {
+    "id": "adequate",
+    "word": "adequate",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "충분한",
+      "적절한"
+    ],
+    "examples": [
+      {
+        "en": "The room has adequate space for ten people.",
+        "ko": "그 방은 열 명이 쓰기에 충분한 공간이 있어요."
+      },
+      {
+        "en": "He didn't get adequate sleep before the exam.",
+        "ko": "그는 시험 전에 잠을 충분히 자지 못했어요."
+      },
+      {
+        "en": "Is the pay adequate for such a hard job?",
+        "ko": "그렇게 힘든 일에 그 급여가 적절한가요?"
+      }
+    ]
+  },
+  {
+    "id": "adjust",
+    "word": "adjust",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "조정하다",
+      "적응하다"
+    ],
+    "examples": [
+      {
+        "en": "You can adjust the seat to make it higher.",
+        "ko": "좌석을 조정해서 더 높게 할 수 있어요."
+      },
+      {
+        "en": "It took me a month to adjust to the new city.",
+        "ko": "새 도시에 적응하는 데 한 달이 걸렸어요."
+      },
+      {
+        "en": "Please adjust the volume before the meeting starts.",
+        "ko": "회의가 시작되기 전에 음량을 조절해 주세요."
+      }
+    ]
+  },
+  {
     "id": "administration",
     "word": "administration",
     "pos": [
@@ -63821,6 +61913,58 @@
       {
         "en": "Did you read the annual report before today's meeting?",
         "ko": "오늘 회의 전에 연례 보고서를 읽으셨나요?"
+      }
+    ]
+  },
+  {
+    "id": "anticipate",
+    "word": "anticipate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "예상하다",
+      "기대하다"
+    ],
+    "examples": [
+      {
+        "en": "We didn't anticipate so many guests.",
+        "ko": "우리는 손님이 그렇게 많을 줄 예상하지 못했어요."
+      },
+      {
+        "en": "Good drivers anticipate problems on the road.",
+        "ko": "운전을 잘하는 사람은 도로 위의 문제를 미리 예상해요."
+      },
+      {
+        "en": "The company anticipates higher sales next year.",
+        "ko": "회사는 내년에 매출이 더 늘 것으로 예상해요."
+      }
+    ]
+  },
+  {
+    "id": "anxiety",
+    "word": "anxiety",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "불안",
+      "걱정"
+    ],
+    "examples": [
+      {
+        "en": "She felt a lot of anxiety before the interview.",
+        "ko": "그녀는 면접 전에 몹시 불안했어요."
+      },
+      {
+        "en": "Exercise can help reduce anxiety.",
+        "ko": "운동은 불안을 줄이는 데 도움이 될 수 있어요."
+      },
+      {
+        "en": "His anxiety about money kept him awake at night.",
+        "ko": "돈 걱정 때문에 그는 밤에 잠을 못 잤어요."
       }
     ]
   },
@@ -64271,6 +62415,32 @@
     ]
   },
   {
+    "id": "assign",
+    "word": "assign",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "배정하다",
+      "맡기다"
+    ],
+    "examples": [
+      {
+        "en": "The teacher will assign homework every Friday.",
+        "ko": "선생님은 매주 금요일에 숙제를 내 주실 거예요."
+      },
+      {
+        "en": "Each guest was assigned a room on the second floor.",
+        "ko": "손님마다 2층 방이 하나씩 배정되었어요."
+      },
+      {
+        "en": "My boss assigned me a new project.",
+        "ko": "상사가 나에게 새 프로젝트를 맡겼어요."
+      }
+    ]
+  },
+  {
     "id": "associate",
     "word": "associate",
     "pos": [
@@ -64371,6 +62541,32 @@
       {
         "en": "I assumed the store was open on public holidays.",
         "ko": "저는 공휴일에도 가게가 문을 연다고 생각했어요."
+      }
+    ]
+  },
+  {
+    "id": "assure",
+    "word": "assure",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "장담하다",
+      "안심시키다"
+    ],
+    "examples": [
+      {
+        "en": "I assure you the food is fresh.",
+        "ko": "음식이 신선하다는 건 제가 장담해요."
+      },
+      {
+        "en": "The doctor assured her that nothing was wrong.",
+        "ko": "의사는 아무 이상이 없다며 그녀를 안심시켰어요."
+      },
+      {
+        "en": "He assured us he would arrive on time.",
+        "ko": "그는 제시간에 도착하겠다고 우리에게 장담했어요."
       }
     ]
   },
@@ -64614,6 +62810,34 @@
     ]
   },
   {
+    "id": "bias",
+    "word": "bias",
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "편견",
+      "편향",
+      "편향되게 하다"
+    ],
+    "examples": [
+      {
+        "en": "The report shows a clear bias against young workers.",
+        "ko": "그 보고서는 젊은 근로자에 대한 뚜렷한 편견을 보여 줘요."
+      },
+      {
+        "en": "Try to read the news without bias.",
+        "ko": "편견 없이 뉴스를 읽어 보세요."
+      },
+      {
+        "en": "Don't let one bad experience bias your opinion.",
+        "ko": "나쁜 경험 하나로 의견이 치우치지 않게 하세요."
+      }
+    ]
+  },
+  {
     "id": "bitter",
     "word": "bitter",
     "pos": [
@@ -64696,6 +62920,33 @@
     ]
   },
   {
+    "id": "bold",
+    "word": "bold",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "대담한",
+      "선명한",
+      "굵은 글씨의"
+    ],
+    "examples": [
+      {
+        "en": "It was a bold decision to quit her job.",
+        "ko": "직장을 그만둔 건 대담한 결정이었어요."
+      },
+      {
+        "en": "The room was painted in bold colors.",
+        "ko": "그 방은 선명한 색으로 칠해져 있었어요."
+      },
+      {
+        "en": "Write the title in bold letters.",
+        "ko": "제목은 굵은 글씨로 쓰세요."
+      }
+    ]
+  },
+  {
     "id": "bond",
     "word": "bond",
     "pos": [
@@ -64719,6 +62970,34 @@
       {
         "en": "She bought a government bond through her bank.",
         "ko": "그녀는 은행을 통해 국채를 샀어요."
+      }
+    ]
+  },
+  {
+    "id": "boost",
+    "word": "boost",
+    "pos": [
+      "verb",
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "높이다",
+      "북돋우다",
+      "증가"
+    ],
+    "examples": [
+      {
+        "en": "A short walk can boost your energy.",
+        "ko": "짧은 산책은 기운을 북돋워 줄 수 있어요."
+      },
+      {
+        "en": "The new ad helped boost sales.",
+        "ko": "새 광고가 매출을 높이는 데 도움이 됐어요."
+      },
+      {
+        "en": "Winning the game gave the team a big boost.",
+        "ko": "경기에서 이긴 것이 팀에 큰 힘이 됐어요."
       }
     ]
   },
@@ -65173,6 +63452,33 @@
     ]
   },
   {
+    "id": "casual",
+    "word": "casual",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "평상시의",
+      "격식 없는",
+      "무심한"
+    ],
+    "examples": [
+      {
+        "en": "You can wear casual clothes to the party.",
+        "ko": "파티에는 편한 옷을 입고 와도 돼요."
+      },
+      {
+        "en": "We had a casual chat over coffee.",
+        "ko": "우리는 커피를 마시며 가볍게 이야기를 나눴어요."
+      },
+      {
+        "en": "He gave a casual answer, as if it didn't matter.",
+        "ko": "그는 별일 아니라는 듯 무심하게 대답했어요."
+      }
+    ]
+  },
+  {
     "id": "cell",
     "word": "cell",
     "pos": [
@@ -65196,6 +63502,32 @@
       {
         "en": "My phone's battery cell needs a full charge.",
         "ko": "휴대전화 배터리 전지를 완전히 충전해야 해요."
+      }
+    ]
+  },
+  {
+    "id": "chaos",
+    "word": "chaos",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "혼돈",
+      "대혼란"
+    ],
+    "examples": [
+      {
+        "en": "The snow caused chaos on the roads.",
+        "ko": "눈 때문에 도로가 대혼란에 빠졌어요."
+      },
+      {
+        "en": "The kitchen was in chaos after the party.",
+        "ko": "파티가 끝난 뒤 부엌은 엉망이었어요."
+      },
+      {
+        "en": "There was chaos at the station when the trains stopped.",
+        "ko": "기차가 멈추자 역은 큰 혼란에 빠졌어요."
       }
     ]
   },
@@ -65360,6 +63692,32 @@
     ]
   },
   {
+    "id": "clarify",
+    "word": "clarify",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "명확히 하다",
+      "분명히 설명하다"
+    ],
+    "examples": [
+      {
+        "en": "Could you clarify what you mean?",
+        "ko": "무슨 뜻인지 분명히 말씀해 주시겠어요?"
+      },
+      {
+        "en": "The manager clarified the new rules for the staff.",
+        "ko": "매니저가 직원들에게 새 규칙을 명확히 설명했어요."
+      },
+      {
+        "en": "I sent an email to clarify the meeting time.",
+        "ko": "회의 시간을 확실히 하려고 이메일을 보냈어요."
+      }
+    ]
+  },
+  {
     "id": "classic",
     "word": "classic",
     "pos": [
@@ -65411,6 +63769,31 @@
       {
         "en": "She watched the dough closely while it baked.",
         "ko": "그녀는 반죽이 구워지는 동안 유심히 살폈어요."
+      }
+    ]
+  },
+  {
+    "id": "coincidence",
+    "word": "coincidence",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "우연의 일치"
+    ],
+    "examples": [
+      {
+        "en": "What a coincidence to meet you here!",
+        "ko": "여기서 만나다니 정말 우연이네요!"
+      },
+      {
+        "en": "It was no coincidence that he arrived late again.",
+        "ko": "그가 또 늦게 온 건 결코 우연이 아니었어요."
+      },
+      {
+        "en": "By coincidence, we were born on the same day.",
+        "ko": "우연히도 우리는 같은 날 태어났어요."
       }
     ]
   },
@@ -65631,6 +64014,59 @@
     ]
   },
   {
+    "id": "companion",
+    "word": "companion",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "동반자",
+      "친구",
+      "동행"
+    ],
+    "examples": [
+      {
+        "en": "My dog is my best companion.",
+        "ko": "우리 개는 내 가장 좋은 친구예요."
+      },
+      {
+        "en": "She was a good travel companion.",
+        "ko": "그녀는 좋은 여행 동반자였어요."
+      },
+      {
+        "en": "He spoke quietly to his companion on the train.",
+        "ko": "그는 기차에서 일행에게 조용히 말했어요."
+      }
+    ]
+  },
+  {
+    "id": "compensate",
+    "word": "compensate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "보상하다",
+      "만회하다"
+    ],
+    "examples": [
+      {
+        "en": "The airline will compensate passengers for the delay.",
+        "ko": "항공사가 지연에 대해 승객들에게 보상할 거예요."
+      },
+      {
+        "en": "She worked late to compensate for the lost time.",
+        "ko": "그녀는 잃어버린 시간을 만회하려고 늦게까지 일했어요."
+      },
+      {
+        "en": "Nothing can compensate for losing a friend.",
+        "ko": "친구를 잃은 것은 무엇으로도 보상할 수 없어요."
+      }
+    ]
+  },
+  {
     "id": "complicated",
     "word": "complicated",
     "pos": [
@@ -65679,6 +64115,34 @@
       {
         "en": "The computer needs one new component to work properly.",
         "ko": "컴퓨터가 제대로 작동하려면 부품 하나를 새로 바꿔야 해요."
+      }
+    ]
+  },
+  {
+    "id": "compromise",
+    "word": "compromise",
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "타협",
+      "타협하다",
+      "손상시키다"
+    ],
+    "examples": [
+      {
+        "en": "After a long talk, they reached a compromise.",
+        "ko": "오랜 대화 끝에 그들은 타협점을 찾았어요."
+      },
+      {
+        "en": "We both had to compromise a little.",
+        "ko": "우리 둘 다 조금씩 양보해야 했어요."
+      },
+      {
+        "en": "Don't compromise your health for work.",
+        "ko": "일 때문에 건강을 해치지 마세요."
       }
     ]
   },
@@ -65817,6 +64281,33 @@
     ]
   },
   {
+    "id": "confess",
+    "word": "confess",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "고백하다",
+      "자백하다",
+      "인정하다"
+    ],
+    "examples": [
+      {
+        "en": "I must confess that I forgot your birthday.",
+        "ko": "네 생일을 잊어버렸다는 걸 고백해야겠어."
+      },
+      {
+        "en": "The man finally confessed to the crime.",
+        "ko": "그 남자는 결국 범행을 자백했어요."
+      },
+      {
+        "en": "She confessed she was nervous about the trip.",
+        "ko": "그녀는 여행이 긴장된다고 털어놓았어요."
+      }
+    ]
+  },
+  {
     "id": "confidence",
     "word": "confidence",
     "pos": [
@@ -65867,6 +64358,32 @@
       {
         "en": "The neighbors resolved their conflict through a calm conversation.",
         "ko": "이웃들은 차분한 대화로 갈등을 해결했어요."
+      }
+    ]
+  },
+  {
+    "id": "confront",
+    "word": "confront",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "맞서다",
+      "직면하다"
+    ],
+    "examples": [
+      {
+        "en": "She decided to confront her fear of flying.",
+        "ko": "그녀는 비행 공포에 맞서기로 했어요."
+      },
+      {
+        "en": "He confronted his friend about the lie.",
+        "ko": "그는 거짓말에 대해 친구에게 따졌어요."
+      },
+      {
+        "en": "The city is confronting a serious water problem.",
+        "ko": "그 도시는 심각한 물 문제에 직면해 있어요."
       }
     ]
   },
@@ -65923,6 +64440,34 @@
     ]
   },
   {
+    "id": "consent",
+    "word": "consent",
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "동의",
+      "허락",
+      "동의하다"
+    ],
+    "examples": [
+      {
+        "en": "You need your parents' consent to join the trip.",
+        "ko": "여행에 참가하려면 부모님의 동의가 필요해요."
+      },
+      {
+        "en": "He took the photo without her consent.",
+        "ko": "그는 그녀의 허락 없이 사진을 찍었어요."
+      },
+      {
+        "en": "She finally consented to the plan.",
+        "ko": "그녀는 결국 그 계획에 동의했어요."
+      }
+    ]
+  },
+  {
     "id": "conservative",
     "word": "conservative",
     "pos": [
@@ -65947,6 +64492,32 @@
       {
         "en": "A conservative spoke at the town meeting about local plans.",
         "ko": "한 보수주의자가 마을 회의에서 지역 계획에 관해 발언했어요."
+      }
+    ]
+  },
+  {
+    "id": "considerable",
+    "word": "considerable",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "상당한",
+      "꽤 많은"
+    ],
+    "examples": [
+      {
+        "en": "The project took a considerable amount of time.",
+        "ko": "그 프로젝트는 상당한 시간이 걸렸어요."
+      },
+      {
+        "en": "She has considerable experience in teaching.",
+        "ko": "그녀는 가르치는 일에 경험이 꽤 많아요."
+      },
+      {
+        "en": "The storm caused considerable damage to the town.",
+        "ko": "폭풍이 마을에 상당한 피해를 입혔어요."
       }
     ]
   },
@@ -66109,6 +64680,33 @@
     ]
   },
   {
+    "id": "consult",
+    "word": "consult",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "상담하다",
+      "찾아보다",
+      "의논하다"
+    ],
+    "examples": [
+      {
+        "en": "You should consult a doctor about that pain.",
+        "ko": "그 통증은 의사와 상담해 보세요."
+      },
+      {
+        "en": "I consulted a map before the trip.",
+        "ko": "여행 전에 지도를 찾아봤어요."
+      },
+      {
+        "en": "He never consults his wife before spending money.",
+        "ko": "그는 돈을 쓰기 전에 아내와 한 번도 의논하지 않아요."
+      }
+    ]
+  },
+  {
     "id": "contemporary",
     "word": "contemporary",
     "pos": [
@@ -66244,6 +64842,32 @@
     ]
   },
   {
+    "id": "controversy",
+    "word": "controversy",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "논란",
+      "논쟁"
+    ],
+    "examples": [
+      {
+        "en": "The new law caused a lot of controversy.",
+        "ko": "새 법은 많은 논란을 일으켰어요."
+      },
+      {
+        "en": "There is controversy over the plan to build a new airport.",
+        "ko": "새 공항을 짓는 계획을 두고 논란이 있어요."
+      },
+      {
+        "en": "The singer tried to avoid controversy.",
+        "ko": "그 가수는 논란을 피하려고 했어요."
+      }
+    ]
+  },
+  {
     "id": "convert",
     "word": "convert",
     "pos": [
@@ -66293,6 +64917,32 @@
       {
         "en": "Are you convinced the new plan will work?",
         "ko": "새 계획이 잘될 거라고 확신하시나요?"
+      }
+    ]
+  },
+  {
+    "id": "cooperate",
+    "word": "cooperate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "협력하다",
+      "협조하다"
+    ],
+    "examples": [
+      {
+        "en": "The two companies agreed to cooperate on the project.",
+        "ko": "두 회사는 그 프로젝트에서 협력하기로 합의했어요."
+      },
+      {
+        "en": "Please cooperate with the police.",
+        "ko": "경찰에 협조해 주세요."
+      },
+      {
+        "en": "The children cooperated to clean the classroom.",
+        "ko": "아이들은 힘을 합쳐 교실을 청소했어요."
       }
     ]
   },
@@ -66776,6 +65426,31 @@
     ]
   },
   {
+    "id": "curiosity",
+    "word": "curiosity",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "호기심"
+    ],
+    "examples": [
+      {
+        "en": "Children are full of curiosity.",
+        "ko": "아이들은 호기심이 가득해요."
+      },
+      {
+        "en": "I opened the box out of curiosity.",
+        "ko": "호기심에 상자를 열어 봤어요."
+      },
+      {
+        "en": "Her curiosity about science started at a young age.",
+        "ko": "과학에 대한 그녀의 호기심은 어린 나이에 시작됐어요."
+      }
+    ]
+  },
+  {
     "id": "curve",
     "word": "curve",
     "pos": [
@@ -67021,6 +65696,33 @@
     ]
   },
   {
+    "id": "dedicate",
+    "word": "dedicate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "바치다",
+      "헌신하다",
+      "헌정하다"
+    ],
+    "examples": [
+      {
+        "en": "She dedicated her life to helping poor families.",
+        "ko": "그녀는 가난한 가정을 돕는 데 평생을 바쳤어요."
+      },
+      {
+        "en": "He dedicates two hours a day to practice.",
+        "ko": "그는 하루 두 시간을 연습에 쏟아요."
+      },
+      {
+        "en": "The writer dedicated the book to her mother.",
+        "ko": "작가는 그 책을 어머니께 바쳤어요."
+      }
+    ]
+  },
+  {
     "id": "deeply",
     "word": "deeply",
     "pos": [
@@ -67076,33 +65778,6 @@
     ]
   },
   {
-    "id": "defense",
-    "word": "defense",
-    "pos": [
-      "noun"
-    ],
-    "cefr": "B2",
-    "meanings": [
-      "방어",
-      "수비",
-      "변호"
-    ],
-    "examples": [
-      {
-        "en": "The team improved its defense before the weekend match.",
-        "ko": "팀은 주말 경기를 앞두고 수비를 강화했어요."
-      },
-      {
-        "en": "She gave a strong defense of the new library plan.",
-        "ko": "그녀는 새 도서관 계획을 강하게 옹호했어요."
-      },
-      {
-        "en": "Good defense keeps the garden safe from hungry rabbits.",
-        "ko": "튼튼한 울타리는 배고픈 토끼로부터 정원을 보호해요."
-      }
-    ]
-  },
-  {
     "id": "defend",
     "word": "defend",
     "pos": [
@@ -67126,6 +65801,33 @@
       {
         "en": "How would you defend this idea at the meeting?",
         "ko": "회의에서 이 생각을 어떻게 옹호하시겠어요?"
+      }
+    ]
+  },
+  {
+    "id": "defense",
+    "word": "defense",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "방어",
+      "수비",
+      "변호"
+    ],
+    "examples": [
+      {
+        "en": "The team improved its defense before the weekend match.",
+        "ko": "팀은 주말 경기를 앞두고 수비를 강화했어요."
+      },
+      {
+        "en": "She gave a strong defense of the new library plan.",
+        "ko": "그녀는 새 도서관 계획을 강하게 옹호했어요."
+      },
+      {
+        "en": "Good defense keeps the garden safe from hungry rabbits.",
+        "ko": "튼튼한 울타리는 배고픈 토끼로부터 정원을 보호해요."
       }
     ]
   },
@@ -67206,6 +65908,33 @@
       {
         "en": "The shop deliberately keeps some items off the front shelf.",
         "ko": "그 가게는 일부러 몇 가지 물건을 앞 선반에 두지 않아요."
+      }
+    ]
+  },
+  {
+    "id": "delicate",
+    "word": "delicate",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "연약한",
+      "섬세한",
+      "미묘한"
+    ],
+    "examples": [
+      {
+        "en": "Be careful with those delicate glasses.",
+        "ko": "그 깨지기 쉬운 잔들 조심하세요."
+      },
+      {
+        "en": "The soup has a delicate flavor.",
+        "ko": "그 수프는 맛이 섬세해요."
+      },
+      {
+        "en": "Money is a delicate subject in our family.",
+        "ko": "우리 가족에게 돈은 민감한 주제예요."
       }
     ]
   },
@@ -67584,6 +66313,32 @@
     ]
   },
   {
+    "id": "devote",
+    "word": "devote",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "바치다",
+      "쏟다"
+    ],
+    "examples": [
+      {
+        "en": "He devotes his weekends to his children.",
+        "ko": "그는 주말을 아이들에게 쏟아요."
+      },
+      {
+        "en": "The magazine devotes a page to local news.",
+        "ko": "그 잡지는 한 페이지를 지역 소식에 할애해요."
+      },
+      {
+        "en": "She devoted years to learning the piano.",
+        "ko": "그녀는 피아노를 배우는 데 몇 년을 바쳤어요."
+      }
+    ]
+  },
+  {
     "id": "dig",
     "word": "dig",
     "pos": [
@@ -67607,6 +66362,32 @@
       {
         "en": "Dig gently around the roots before moving the plant.",
         "ko": "식물을 옮기기 전에 뿌리 주변을 조심히 파세요."
+      }
+    ]
+  },
+  {
+    "id": "dilemma",
+    "word": "dilemma",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "딜레마",
+      "진퇴양난"
+    ],
+    "examples": [
+      {
+        "en": "I'm in a dilemma about which job to take.",
+        "ko": "어떤 일자리를 택해야 할지 딜레마에 빠졌어요."
+      },
+      {
+        "en": "Doctors often face difficult dilemmas.",
+        "ko": "의사들은 종종 어려운 딜레마에 직면해요."
+      },
+      {
+        "en": "Her dilemma was whether to stay or leave.",
+        "ko": "그녀의 고민은 남을지 떠날지였어요."
       }
     ]
   },
@@ -67719,6 +66500,60 @@
     ]
   },
   {
+    "id": "dispute",
+    "word": "dispute",
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "분쟁",
+      "논쟁",
+      "이의를 제기하다"
+    ],
+    "examples": [
+      {
+        "en": "The neighbors had a dispute about the fence.",
+        "ko": "이웃들은 울타리 문제로 분쟁이 있었어요."
+      },
+      {
+        "en": "Workers are in a dispute with the company over pay.",
+        "ko": "근로자들은 급여 문제로 회사와 다투고 있어요."
+      },
+      {
+        "en": "Nobody disputes that she is a great player.",
+        "ko": "그녀가 훌륭한 선수라는 데 이의를 제기하는 사람은 없어요."
+      }
+    ]
+  },
+  {
+    "id": "distinct",
+    "word": "distinct",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "뚜렷한",
+      "별개의"
+    ],
+    "examples": [
+      {
+        "en": "There is a distinct smell of smoke in the room.",
+        "ko": "방에서 뚜렷하게 연기 냄새가 나요."
+      },
+      {
+        "en": "The two words have distinct meanings.",
+        "ko": "두 단어는 서로 다른 뜻을 가지고 있어요."
+      },
+      {
+        "en": "I had the distinct feeling that someone was watching me.",
+        "ko": "누군가 나를 지켜보고 있다는 느낌이 분명히 들었어요."
+      }
+    ]
+  },
+  {
     "id": "distribute",
     "word": "distribute",
     "pos": [
@@ -67796,6 +66631,31 @@
       {
         "en": "Which district should visitors choose for a quiet stay?",
         "ko": "조용히 머물려는 방문객은 어느 지역을 고르면 좋을까요?"
+      }
+    ]
+  },
+  {
+    "id": "diverse",
+    "word": "diverse",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "다양한"
+    ],
+    "examples": [
+      {
+        "en": "The city has a diverse population.",
+        "ko": "그 도시는 인구 구성이 다양해요."
+      },
+      {
+        "en": "Our team comes from diverse backgrounds.",
+        "ko": "우리 팀은 다양한 배경을 가진 사람들로 이루어져 있어요."
+      },
+      {
+        "en": "The menu offers a diverse range of dishes.",
+        "ko": "그 메뉴에는 다양한 요리가 있어요."
       }
     ]
   },
@@ -68015,6 +66875,60 @@
     ]
   },
   {
+    "id": "durable",
+    "word": "durable",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "내구성 있는",
+      "오래가는"
+    ],
+    "examples": [
+      {
+        "en": "These boots are light but durable.",
+        "ko": "이 부츠는 가볍지만 튼튼해요."
+      },
+      {
+        "en": "We need a durable table for the kitchen.",
+        "ko": "부엌에 쓸 튼튼한 식탁이 필요해요."
+      },
+      {
+        "en": "Their friendship proved to be durable.",
+        "ko": "그들의 우정은 오래가는 것으로 드러났어요."
+      }
+    ]
+  },
+  {
+    "id": "dynamic",
+    "word": "dynamic",
+    "pos": [
+      "adjective",
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "역동적인",
+      "활동적인",
+      "역학 관계"
+    ],
+    "examples": [
+      {
+        "en": "She is a dynamic and creative leader.",
+        "ko": "그녀는 활동적이고 창의적인 리더예요."
+      },
+      {
+        "en": "Seoul is a dynamic city that never sleeps.",
+        "ko": "서울은 잠들지 않는 역동적인 도시예요."
+      },
+      {
+        "en": "The dynamic between the two brothers changed over time.",
+        "ko": "두 형제 사이의 관계는 시간이 지나며 변했어요."
+      }
+    ]
+  },
+  {
     "id": "edit",
     "word": "edit",
     "pos": [
@@ -68142,6 +67056,33 @@
       {
         "en": "They elected to stay home during the heavy rain.",
         "ko": "그들은 폭우가 오는 동안 집에 있기로 선택했어요."
+      }
+    ]
+  },
+  {
+    "id": "eliminate",
+    "word": "eliminate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "없애다",
+      "제거하다",
+      "탈락시키다"
+    ],
+    "examples": [
+      {
+        "en": "We need to eliminate mistakes from the report.",
+        "ko": "보고서에서 실수를 없애야 해요."
+      },
+      {
+        "en": "Try to eliminate sugar from your diet.",
+        "ko": "식단에서 설탕을 빼 보세요."
+      },
+      {
+        "en": "Our team was eliminated in the first round.",
+        "ko": "우리 팀은 1라운드에서 탈락했어요."
       }
     ]
   },
@@ -68327,6 +67268,33 @@
       {
         "en": "Travelers may encounter sudden weather changes in the hills.",
         "ko": "여행객들은 언덕에서 갑작스러운 날씨 변화를 겪을 수 있어요."
+      }
+    ]
+  },
+  {
+    "id": "endure",
+    "word": "endure",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "견디다",
+      "참다",
+      "지속되다"
+    ],
+    "examples": [
+      {
+        "en": "They had to endure a long, cold winter.",
+        "ko": "그들은 길고 추운 겨울을 견뎌야 했어요."
+      },
+      {
+        "en": "I can't endure this noise any longer.",
+        "ko": "이 소음을 더는 못 참겠어요."
+      },
+      {
+        "en": "His music will endure for many years.",
+        "ko": "그의 음악은 오랫동안 남을 거예요."
       }
     ]
   },
@@ -68677,6 +67645,32 @@
     ]
   },
   {
+    "id": "evident",
+    "word": "evident",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "분명한",
+      "명백한"
+    ],
+    "examples": [
+      {
+        "en": "It was evident that she was tired.",
+        "ko": "그녀가 피곤하다는 건 분명했어요."
+      },
+      {
+        "en": "His love for animals is evident in his work.",
+        "ko": "동물에 대한 그의 사랑은 그의 작품에서 분명히 드러나요."
+      },
+      {
+        "en": "The problem became evident after a few days.",
+        "ko": "며칠 뒤 문제가 명백해졌어요."
+      }
+    ]
+  },
+  {
     "id": "evil",
     "word": "evil",
     "pos": [
@@ -68705,6 +67699,31 @@
     ]
   },
   {
+    "id": "exaggerate",
+    "word": "exaggerate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "과장하다"
+    ],
+    "examples": [
+      {
+        "en": "Don't exaggerate, it wasn't that bad.",
+        "ko": "과장하지 마, 그렇게 나쁘진 않았어."
+      },
+      {
+        "en": "He tends to exaggerate his success.",
+        "ko": "그는 자기 성공을 부풀리는 경향이 있어요."
+      },
+      {
+        "en": "The news exaggerated the size of the fire.",
+        "ko": "뉴스는 화재 규모를 과장했어요."
+      }
+    ]
+  },
+  {
     "id": "examination",
     "word": "examination",
     "pos": [
@@ -68728,6 +67747,58 @@
       {
         "en": "A careful examination of the map revealed another route.",
         "ko": "지도를 꼼꼼히 살펴보니 다른 길이 보였어요."
+      }
+    ]
+  },
+  {
+    "id": "exceed",
+    "word": "exceed",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "넘다",
+      "초과하다"
+    ],
+    "examples": [
+      {
+        "en": "Your bag must not exceed ten kilos.",
+        "ko": "가방은 10킬로그램을 넘으면 안 돼요."
+      },
+      {
+        "en": "The results exceeded our expectations.",
+        "ko": "결과는 우리의 기대를 넘어섰어요."
+      },
+      {
+        "en": "He was stopped for exceeding the speed limit.",
+        "ko": "그는 제한 속도를 초과해서 단속에 걸렸어요."
+      }
+    ]
+  },
+  {
+    "id": "exclude",
+    "word": "exclude",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "제외하다",
+      "배제하다"
+    ],
+    "examples": [
+      {
+        "en": "The price excludes drinks.",
+        "ko": "그 가격에는 음료가 포함되지 않아요."
+      },
+      {
+        "en": "She felt excluded from the group.",
+        "ko": "그녀는 그 무리에서 따돌림당한다고 느꼈어요."
+      },
+      {
+        "en": "We can't exclude the possibility of rain.",
+        "ko": "비가 올 가능성을 배제할 수 없어요."
       }
     ]
   },
@@ -69137,6 +68208,31 @@
     ]
   },
   {
+    "id": "feasible",
+    "word": "feasible",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "실현 가능한"
+    ],
+    "examples": [
+      {
+        "en": "Is it feasible to finish the work by Friday?",
+        "ko": "금요일까지 그 일을 끝내는 게 가능할까요?"
+      },
+      {
+        "en": "The plan sounds good, but it isn't feasible.",
+        "ko": "그 계획은 좋게 들리지만 실현 가능하지 않아요."
+      },
+      {
+        "en": "We are looking for a feasible solution.",
+        "ko": "우리는 실현 가능한 해결책을 찾고 있어요."
+      }
+    ]
+  },
+  {
     "id": "feather",
     "word": "feather",
     "pos": [
@@ -69431,6 +68527,32 @@
     ]
   },
   {
+    "id": "fluent",
+    "word": "fluent",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "유창한",
+      "능숙한"
+    ],
+    "examples": [
+      {
+        "en": "She is fluent in three languages.",
+        "ko": "그녀는 세 가지 언어를 유창하게 해요."
+      },
+      {
+        "en": "He speaks fluent English.",
+        "ko": "그는 영어를 유창하게 말해요."
+      },
+      {
+        "en": "It takes years to become fluent in a new language.",
+        "ko": "새 언어에 능숙해지려면 몇 년이 걸려요."
+      }
+    ]
+  },
+  {
     "id": "folding",
     "word": "folding",
     "pos": [
@@ -69453,6 +68575,32 @@
       {
         "en": "The shop sells folding bikes for people with little space.",
         "ko": "그 가게는 공간이 부족한 사람들을 위해 접이식 자전거를 팔아요."
+      }
+    ]
+  },
+  {
+    "id": "forbid",
+    "word": "forbid",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "금지하다",
+      "못 하게 하다"
+    ],
+    "examples": [
+      {
+        "en": "My parents forbid me to stay out late.",
+        "ko": "부모님은 내가 늦게까지 밖에 있는 걸 금지하세요."
+      },
+      {
+        "en": "The rules forbid smoking inside the building.",
+        "ko": "규칙상 건물 안에서는 흡연이 금지돼요."
+      },
+      {
+        "en": "Taking photos is forbidden in the museum.",
+        "ko": "박물관에서는 사진 촬영이 금지되어 있어요."
       }
     ]
   },
@@ -69559,6 +68707,33 @@
       {
         "en": "Who founded the local music school near the park?",
         "ko": "공원 근처 지역 음악 학교를 누가 설립했어요?"
+      }
+    ]
+  },
+  {
+    "id": "fragile",
+    "word": "fragile",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "깨지기 쉬운",
+      "연약한",
+      "불안정한"
+    ],
+    "examples": [
+      {
+        "en": "This box is fragile, so handle it with care.",
+        "ko": "이 상자는 깨지기 쉬우니 조심히 다뤄 주세요."
+      },
+      {
+        "en": "After the illness, she felt weak and fragile.",
+        "ko": "병을 앓은 뒤 그녀는 약하고 연약해졌어요."
+      },
+      {
+        "en": "The peace between the two countries is fragile.",
+        "ko": "두 나라 사이의 평화는 불안정해요."
       }
     ]
   },
@@ -69881,6 +69056,60 @@
     ]
   },
   {
+    "id": "genuine",
+    "word": "genuine",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "진짜의",
+      "진심 어린"
+    ],
+    "examples": [
+      {
+        "en": "Is this bag made of genuine leather?",
+        "ko": "이 가방은 진짜 가죽으로 만든 건가요?"
+      },
+      {
+        "en": "She showed genuine interest in my story.",
+        "ko": "그녀는 내 이야기에 진심으로 관심을 보였어요."
+      },
+      {
+        "en": "His smile looked warm and genuine.",
+        "ko": "그의 미소는 따뜻하고 진심이 담겨 보였어요."
+      }
+    ]
+  },
+  {
+    "id": "gesture",
+    "word": "gesture",
+    "pos": [
+      "noun",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "몸짓",
+      "표시",
+      "손짓하다"
+    ],
+    "examples": [
+      {
+        "en": "He made a gesture for me to sit down.",
+        "ko": "그는 나에게 앉으라는 몸짓을 했어요."
+      },
+      {
+        "en": "Sending flowers was a kind gesture.",
+        "ko": "꽃을 보낸 건 친절한 마음의 표시였어요."
+      },
+      {
+        "en": "She gestured toward the door.",
+        "ko": "그녀는 문 쪽을 손짓으로 가리켰어요."
+      }
+    ]
+  },
+  {
     "id": "govern",
     "word": "govern",
     "pos": [
@@ -70044,6 +69273,31 @@
     ]
   },
   {
+    "id": "habitat",
+    "word": "habitat",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "서식지"
+    ],
+    "examples": [
+      {
+        "en": "The forest is a natural habitat for many birds.",
+        "ko": "그 숲은 많은 새들의 자연 서식지예요."
+      },
+      {
+        "en": "Pollution is destroying the habitat of these fish.",
+        "ko": "오염이 이 물고기들의 서식지를 파괴하고 있어요."
+      },
+      {
+        "en": "The zoo tries to copy each animal's habitat.",
+        "ko": "그 동물원은 동물마다 서식지를 재현하려고 해요."
+      }
+    ]
+  },
+  {
     "id": "handle",
     "word": "handle",
     "pos": [
@@ -70122,6 +69376,33 @@
       {
         "en": "Is this plant harmful to cats if they eat it?",
         "ko": "고양이가 먹으면 이 식물이 해로운가요?"
+      }
+    ]
+  },
+  {
+    "id": "harsh",
+    "word": "harsh",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "가혹한",
+      "혹독한",
+      "거친"
+    ],
+    "examples": [
+      {
+        "en": "The teacher's words were harsh but true.",
+        "ko": "선생님의 말은 가혹했지만 사실이었어요."
+      },
+      {
+        "en": "Few plants can survive the harsh winter here.",
+        "ko": "이곳의 혹독한 겨울을 견디는 식물은 거의 없어요."
+      },
+      {
+        "en": "This soap is too harsh for my skin.",
+        "ko": "이 비누는 내 피부에 너무 자극적이에요."
       }
     ]
   },
@@ -70340,6 +69621,32 @@
     ]
   },
   {
+    "id": "hostile",
+    "word": "hostile",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "적대적인",
+      "불친절한"
+    ],
+    "examples": [
+      {
+        "en": "The crowd became hostile when the game ended.",
+        "ko": "경기가 끝나자 관중이 적대적으로 변했어요."
+      },
+      {
+        "en": "He gave me a hostile look.",
+        "ko": "그는 나를 적대적인 눈빛으로 쳐다봤어요."
+      },
+      {
+        "en": "Many people are hostile to the new tax.",
+        "ko": "많은 사람들이 새 세금에 반대해요."
+      }
+    ]
+  },
+  {
     "id": "household",
     "word": "household",
     "pos": [
@@ -70394,28 +69701,28 @@
     ]
   },
   {
-    "id": "humorous",
-    "word": "humorous",
+    "id": "humble",
+    "word": "humble",
     "pos": [
       "adjective"
     ],
     "cefr": "B2",
     "meanings": [
-      "유머러스한",
-      "재미있는"
+      "겸손한",
+      "소박한"
     ],
     "examples": [
       {
-        "en": "He wrote a humorous note about the office coffee machine.",
-        "ko": "그는 사무실 커피 기계에 관한 재미있는 쪽지를 썼어요."
+        "en": "Even after winning, she stayed humble.",
+        "ko": "우승한 뒤에도 그녀는 겸손했어요."
       },
       {
-        "en": "The guide told a humorous story during our walking tour.",
-        "ko": "가이드는 도보 투어 중에 유머러스한 이야기를 들려줬어요."
+        "en": "He grew up in a humble home in the countryside.",
+        "ko": "그는 시골의 소박한 집에서 자랐어요."
       },
       {
-        "en": "Her humorous answer made the whole class smile.",
-        "ko": "그녀의 재미있는 대답에 반 전체가 웃었어요."
+        "en": "Thank you for your kind words, I feel humbled.",
+        "ko": "친절한 말씀 감사합니다, 몸 둘 바를 모르겠어요."
       }
     ]
   },
@@ -70447,6 +69754,32 @@
     ]
   },
   {
+    "id": "humorous",
+    "word": "humorous",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "유머러스한",
+      "재미있는"
+    ],
+    "examples": [
+      {
+        "en": "He wrote a humorous note about the office coffee machine.",
+        "ko": "그는 사무실 커피 기계에 관한 재미있는 쪽지를 썼어요."
+      },
+      {
+        "en": "The guide told a humorous story during our walking tour.",
+        "ko": "가이드는 도보 투어 중에 유머러스한 이야기를 들려줬어요."
+      },
+      {
+        "en": "Her humorous answer made the whole class smile.",
+        "ko": "그녀의 재미있는 대답에 반 전체가 웃었어요."
+      }
+    ]
+  },
+  {
     "id": "hunting",
     "word": "hunting",
     "pos": [
@@ -70469,6 +69802,32 @@
       {
         "en": "We spent the afternoon hunting for a missing library book.",
         "ko": "우리는 오후 내내 잃어버린 도서관 책을 찾았어요."
+      }
+    ]
+  },
+  {
+    "id": "identical",
+    "word": "identical",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "똑같은",
+      "동일한"
+    ],
+    "examples": [
+      {
+        "en": "The two sisters are identical twins.",
+        "ko": "그 두 자매는 일란성 쌍둥이예요."
+      },
+      {
+        "en": "Your phone is identical to mine.",
+        "ko": "네 휴대폰은 내 것과 똑같아."
+      },
+      {
+        "en": "The houses on this street look almost identical.",
+        "ko": "이 거리의 집들은 거의 똑같아 보여요."
       }
     ]
   },
@@ -70549,6 +69908,32 @@
       {
         "en": "Use your imagination to design a room for the game.",
         "ko": "상상력을 발휘해 게임 속 방을 디자인해 보세요."
+      }
+    ]
+  },
+  {
+    "id": "immense",
+    "word": "immense",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "엄청난",
+      "거대한"
+    ],
+    "examples": [
+      {
+        "en": "The project was an immense success.",
+        "ko": "그 프로젝트는 엄청난 성공이었어요."
+      },
+      {
+        "en": "An immense crowd gathered in the square.",
+        "ko": "광장에 엄청난 인파가 모였어요."
+      },
+      {
+        "en": "She felt immense relief when she heard the news.",
+        "ko": "그 소식을 듣고 그녀는 크게 안도했어요."
       }
     ]
   },
@@ -70684,6 +70069,33 @@
     ]
   },
   {
+    "id": "incentive",
+    "word": "incentive",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "동기",
+      "장려책",
+      "인센티브"
+    ],
+    "examples": [
+      {
+        "en": "The bonus is a good incentive to work hard.",
+        "ko": "보너스는 열심히 일할 좋은 동기가 돼요."
+      },
+      {
+        "en": "The city offers incentives for people who ride bikes.",
+        "ko": "시는 자전거를 타는 사람들에게 혜택을 줘요."
+      },
+      {
+        "en": "There is little incentive to save money right now.",
+        "ko": "지금은 돈을 모을 동기가 별로 없어요."
+      }
+    ]
+  },
+  {
     "id": "inch",
     "word": "inch",
     "pos": [
@@ -70814,6 +70226,32 @@
     ]
   },
   {
+    "id": "inevitable",
+    "word": "inevitable",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "불가피한",
+      "필연적인"
+    ],
+    "examples": [
+      {
+        "en": "Some mistakes are inevitable when you learn.",
+        "ko": "배울 때 어느 정도 실수는 피할 수 없어요."
+      },
+      {
+        "en": "Change is inevitable in any company.",
+        "ko": "어느 회사에서든 변화는 불가피해요."
+      },
+      {
+        "en": "It was inevitable that they would meet again.",
+        "ko": "그들이 다시 만나는 건 필연이었어요."
+      }
+    ]
+  },
+  {
     "id": "infection",
     "word": "infection",
     "pos": [
@@ -70862,6 +70300,32 @@
       {
         "en": "We will inform you when the package leaves our store.",
         "ko": "소포가 저희 가게에서 출발하면 알려 드릴게요."
+      }
+    ]
+  },
+  {
+    "id": "inherit",
+    "word": "inherit",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "물려받다",
+      "상속받다"
+    ],
+    "examples": [
+      {
+        "en": "She inherited the house from her grandmother.",
+        "ko": "그녀는 할머니에게서 집을 물려받았어요."
+      },
+      {
+        "en": "He inherited his father's blue eyes.",
+        "ko": "그는 아버지의 파란 눈을 물려받았어요."
+      },
+      {
+        "en": "The new manager inherited many problems.",
+        "ko": "새 매니저는 많은 문제를 떠안았어요."
       }
     ]
   },
@@ -70969,6 +70433,31 @@
       {
         "en": "She shared her inner thoughts with a trusted friend.",
         "ko": "그녀는 믿을 만한 친구에게 속마음을 털어놓았어요."
+      }
+    ]
+  },
+  {
+    "id": "innovative",
+    "word": "innovative",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "혁신적인"
+    ],
+    "examples": [
+      {
+        "en": "The company is known for its innovative products.",
+        "ko": "그 회사는 혁신적인 제품으로 유명해요."
+      },
+      {
+        "en": "We need an innovative way to solve this problem.",
+        "ko": "이 문제를 풀 혁신적인 방법이 필요해요."
+      },
+      {
+        "en": "Her innovative teaching style keeps students interested.",
+        "ko": "그녀의 혁신적인 수업 방식은 학생들의 흥미를 끌어요."
       }
     ]
   },
@@ -71208,6 +70697,33 @@
       {
         "en": "We compared insurance prices before choosing a family plan.",
         "ko": "우리는 가족 보험을 고르기 전에 보험료를 비교했어요."
+      }
+    ]
+  },
+  {
+    "id": "integrity",
+    "word": "integrity",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "진실성",
+      "청렴",
+      "온전함"
+    ],
+    "examples": [
+      {
+        "en": "He is a man of great integrity.",
+        "ko": "그는 매우 정직한 사람이에요."
+      },
+      {
+        "en": "Voters want leaders with integrity.",
+        "ko": "유권자들은 청렴한 지도자를 원해요."
+      },
+      {
+        "en": "The storm damaged the integrity of the bridge.",
+        "ko": "폭풍이 다리의 구조를 손상시켰어요."
       }
     ]
   },
@@ -71777,6 +71293,33 @@
     ]
   },
   {
+    "id": "literally",
+    "word": "literally",
+    "pos": [
+      "adverb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "말 그대로",
+      "문자 그대로",
+      "정말로"
+    ],
+    "examples": [
+      {
+        "en": "The word literally means 'small house'.",
+        "ko": "그 단어는 말 그대로 '작은 집'이라는 뜻이에요."
+      },
+      {
+        "en": "Don't take his joke literally.",
+        "ko": "그의 농담을 곧이곧대로 받아들이지 마세요."
+      },
+      {
+        "en": "I was literally shaking with fear.",
+        "ko": "나는 정말로 무서워서 떨고 있었어요."
+      }
+    ]
+  },
+  {
     "id": "lively",
     "word": "lively",
     "pos": [
@@ -71993,6 +71536,32 @@
     ]
   },
   {
+    "id": "loyal",
+    "word": "loyal",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "충실한",
+      "의리 있는"
+    ],
+    "examples": [
+      {
+        "en": "Dogs are loyal animals.",
+        "ko": "개는 충직한 동물이에요."
+      },
+      {
+        "en": "She has been a loyal friend for twenty years.",
+        "ko": "그녀는 20년 동안 의리 있는 친구였어요."
+      },
+      {
+        "en": "The shop rewards loyal customers with discounts.",
+        "ko": "그 가게는 단골손님에게 할인을 해 줘요."
+      }
+    ]
+  },
+  {
     "id": "lung",
     "word": "lung",
     "pos": [
@@ -72069,6 +71638,33 @@
       {
         "en": "The store serves the majority of families in this neighborhood.",
         "ko": "그 가게는 이 동네 가족 대부분에게 서비스를 제공해요."
+      }
+    ]
+  },
+  {
+    "id": "manipulate",
+    "word": "manipulate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "조종하다",
+      "조작하다",
+      "다루다"
+    ],
+    "examples": [
+      {
+        "en": "He tried to manipulate her into lending him money.",
+        "ko": "그는 그녀를 조종해서 돈을 빌리려고 했어요."
+      },
+      {
+        "en": "The photo was manipulated on a computer.",
+        "ko": "그 사진은 컴퓨터로 조작된 것이었어요."
+      },
+      {
+        "en": "Children learn by manipulating small objects.",
+        "ko": "아이들은 작은 물건을 손으로 다루면서 배워요."
       }
     ]
   },
@@ -72178,6 +71774,34 @@
       {
         "en": "The twins carried matching backpacks to their first class.",
         "ko": "쌍둥이는 첫 수업에 같은 배낭을 메고 갔어요."
+      }
+    ]
+  },
+  {
+    "id": "mature",
+    "word": "mature",
+    "pos": [
+      "adjective",
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "성숙한",
+      "다 자란",
+      "성숙해지다"
+    ],
+    "examples": [
+      {
+        "en": "She is very mature for her age.",
+        "ko": "그녀는 나이에 비해 아주 성숙해요."
+      },
+      {
+        "en": "A mature tree can be over thirty meters tall.",
+        "ko": "다 자란 나무는 30미터가 넘을 수도 있어요."
+      },
+      {
+        "en": "He has matured a lot since college.",
+        "ko": "그는 대학 이후로 많이 성숙해졌어요."
       }
     ]
   },
@@ -72345,6 +71969,32 @@
     ]
   },
   {
+    "id": "minimize",
+    "word": "minimize",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "최소화하다",
+      "축소하다"
+    ],
+    "examples": [
+      {
+        "en": "We should minimize the risk of fire.",
+        "ko": "화재 위험을 최소화해야 해요."
+      },
+      {
+        "en": "Wear a helmet to minimize injury.",
+        "ko": "부상을 최소화하려면 헬멧을 쓰세요."
+      },
+      {
+        "en": "Please minimize the window and open the file.",
+        "ko": "창을 최소화하고 파일을 열어 주세요."
+      }
+    ]
+  },
+  {
     "id": "minimum",
     "word": "minimum",
     "pos": [
@@ -72507,6 +72157,33 @@
     ]
   },
   {
+    "id": "modest",
+    "word": "modest",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "겸손한",
+      "적당한",
+      "수수한"
+    ],
+    "examples": [
+      {
+        "en": "He is modest about his success.",
+        "ko": "그는 자신의 성공에 대해 겸손해요."
+      },
+      {
+        "en": "They live in a modest apartment.",
+        "ko": "그들은 수수한 아파트에 살아요."
+      },
+      {
+        "en": "Prices rose by a modest amount this year.",
+        "ko": "올해 물가는 소폭 올랐어요."
+      }
+    ]
+  },
+  {
     "id": "modify",
     "word": "modify",
     "pos": [
@@ -72586,6 +72263,32 @@
       {
         "en": "What is the moral of this short story?",
         "ko": "이 짧은 이야기의 교훈은 무엇인가요?"
+      }
+    ]
+  },
+  {
+    "id": "motivate",
+    "word": "motivate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "동기를 부여하다",
+      "의욕을 북돋우다"
+    ],
+    "examples": [
+      {
+        "en": "A good teacher knows how to motivate students.",
+        "ko": "좋은 선생님은 학생들에게 동기를 부여하는 법을 알아요."
+      },
+      {
+        "en": "What motivates you to get up early?",
+        "ko": "무엇 때문에 일찍 일어나게 되나요?"
+      },
+      {
+        "en": "She was motivated by a love of music.",
+        "ko": "그녀는 음악에 대한 사랑에서 의욕을 얻었어요."
       }
     ]
   },
@@ -72699,6 +72402,33 @@
     ]
   },
   {
+    "id": "mutual",
+    "word": "mutual",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "상호의",
+      "서로의",
+      "공통의"
+    ],
+    "examples": [
+      {
+        "en": "Their respect for each other is mutual.",
+        "ko": "그들은 서로를 존중해요."
+      },
+      {
+        "en": "We met through a mutual friend.",
+        "ko": "우리는 공통의 친구를 통해 만났어요."
+      },
+      {
+        "en": "The deal is for our mutual benefit.",
+        "ko": "그 거래는 우리 둘 모두에게 이익이에요."
+      }
+    ]
+  },
+  {
     "id": "mysterious",
     "word": "mysterious",
     "pos": [
@@ -72752,6 +72482,32 @@
     ]
   },
   {
+    "id": "negotiate",
+    "word": "negotiate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "협상하다",
+      "타결하다"
+    ],
+    "examples": [
+      {
+        "en": "I tried to negotiate a lower price for the car.",
+        "ko": "차를 더 싸게 사려고 가격을 흥정했어요."
+      },
+      {
+        "en": "The two sides are still negotiating.",
+        "ko": "양측은 아직 협상 중이에요."
+      },
+      {
+        "en": "They negotiated a new contract last week.",
+        "ko": "그들은 지난주에 새 계약을 타결했어요."
+      }
+    ]
+  },
+  {
     "id": "nerve",
     "word": "nerve",
     "pos": [
@@ -72775,6 +72531,34 @@
       {
         "en": "He had the nerve to borrow my bike without asking.",
         "ko": "그는 묻지도 않고 내 자전거를 빌리는 뻔뻔함을 보였어요."
+      }
+    ]
+  },
+  {
+    "id": "neutral",
+    "word": "neutral",
+    "pos": [
+      "adjective",
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "중립의",
+      "무난한",
+      "중립 기어"
+    ],
+    "examples": [
+      {
+        "en": "A judge must stay neutral.",
+        "ko": "판사는 중립을 지켜야 해요."
+      },
+      {
+        "en": "She painted the walls a neutral color.",
+        "ko": "그녀는 벽을 무난한 색으로 칠했어요."
+      },
+      {
+        "en": "Put the car in neutral before you start it.",
+        "ko": "시동을 걸기 전에 기어를 중립에 두세요."
       }
     ]
   },
@@ -73018,6 +72802,32 @@
     ]
   },
   {
+    "id": "obstacle",
+    "word": "obstacle",
+    "pos": [
+      "noun"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "장애물",
+      "방해"
+    ],
+    "examples": [
+      {
+        "en": "Lack of money is the biggest obstacle.",
+        "ko": "돈이 부족한 것이 가장 큰 장애물이에요."
+      },
+      {
+        "en": "The horse jumped over every obstacle.",
+        "ko": "말은 모든 장애물을 뛰어넘었어요."
+      },
+      {
+        "en": "She overcame many obstacles to become a doctor.",
+        "ko": "그녀는 많은 어려움을 이겨 내고 의사가 됐어요."
+      }
+    ]
+  },
+  {
     "id": "obtain",
     "word": "obtain",
     "pos": [
@@ -73071,6 +72881,32 @@
     ]
   },
   {
+    "id": "offend",
+    "word": "offend",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "기분을 상하게 하다",
+      "불쾌하게 하다"
+    ],
+    "examples": [
+      {
+        "en": "I hope my question did not offend anyone at dinner.",
+        "ko": "제 질문이 저녁 식사 자리에서 누구의 기분도 상하게 하지 않았길 바라요."
+      },
+      {
+        "en": "His joke offended a guest, so he apologized right away.",
+        "ko": "그의 농담이 손님의 기분을 상하게 해서 바로 사과했어요."
+      },
+      {
+        "en": "Be careful not to offend people with careless comments.",
+        "ko": "부주의한 말로 사람들의 기분을 상하게 하지 않도록 조심하세요."
+      }
+    ]
+  },
+  {
     "id": "offense",
     "word": "offense",
     "pos": [
@@ -73094,32 +72930,6 @@
       {
         "en": "The team's offense scored twice in the final quarter.",
         "ko": "팀의 공격진은 마지막 쿼터에 두 번 득점했어요."
-      }
-    ]
-  },
-  {
-    "id": "offend",
-    "word": "offend",
-    "pos": [
-      "verb"
-    ],
-    "cefr": "B2",
-    "meanings": [
-      "기분을 상하게 하다",
-      "불쾌하게 하다"
-    ],
-    "examples": [
-      {
-        "en": "I hope my question did not offend anyone at dinner.",
-        "ko": "제 질문이 저녁 식사 자리에서 누구의 기분도 상하게 하지 않았길 바라요."
-      },
-      {
-        "en": "His joke offended a guest, so he apologized right away.",
-        "ko": "그의 농담이 손님의 기분을 상하게 해서 바로 사과했어요."
-      },
-      {
-        "en": "Be careful not to offend people with careless comments.",
-        "ko": "부주의한 말로 사람들의 기분을 상하게 하지 않도록 조심하세요."
       }
     ]
   },
@@ -73310,6 +73120,32 @@
     ]
   },
   {
+    "id": "optimistic",
+    "word": "optimistic",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "낙관적인",
+      "낙천적인"
+    ],
+    "examples": [
+      {
+        "en": "I'm optimistic about the future.",
+        "ko": "나는 미래에 대해 낙관적이에요."
+      },
+      {
+        "en": "She is an optimistic person who always smiles.",
+        "ko": "그녀는 늘 웃는 낙천적인 사람이에요."
+      },
+      {
+        "en": "The doctors are optimistic that he will recover.",
+        "ko": "의사들은 그가 회복할 거라고 낙관하고 있어요."
+      }
+    ]
+  },
+  {
     "id": "organ",
     "word": "organ",
     "pos": [
@@ -73493,6 +73329,86 @@
       {
         "en": "Her overall health improved after she began walking daily.",
         "ko": "그녀는 매일 걷기 시작한 뒤 전반적인 건강이 좋아졌어요."
+      }
+    ]
+  },
+  {
+    "id": "overcome",
+    "word": "overcome",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "극복하다",
+      "이겨 내다",
+      "압도하다"
+    ],
+    "examples": [
+      {
+        "en": "He worked hard to overcome his fear of water.",
+        "ko": "그는 물 공포를 극복하려고 열심히 노력했어요."
+      },
+      {
+        "en": "Together we can overcome any problem.",
+        "ko": "함께라면 어떤 문제든 이겨 낼 수 있어요."
+      },
+      {
+        "en": "She was overcome with joy at the news.",
+        "ko": "그녀는 그 소식에 기쁨에 벅찼어요."
+      }
+    ]
+  },
+  {
+    "id": "overlook",
+    "word": "overlook",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "간과하다",
+      "눈감아 주다",
+      "내려다보다"
+    ],
+    "examples": [
+      {
+        "en": "It's easy to overlook small mistakes.",
+        "ko": "작은 실수는 간과하기 쉬워요."
+      },
+      {
+        "en": "I'll overlook it this time, but don't be late again.",
+        "ko": "이번엔 넘어가겠지만 다시는 늦지 마세요."
+      },
+      {
+        "en": "Our hotel room overlooks the sea.",
+        "ko": "우리 호텔 방에서 바다가 내려다보여요."
+      }
+    ]
+  },
+  {
+    "id": "overwhelm",
+    "word": "overwhelm",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "압도하다",
+      "어쩔 줄 모르게 하다"
+    ],
+    "examples": [
+      {
+        "en": "Don't let the work overwhelm you.",
+        "ko": "일에 짓눌리지 않도록 하세요."
+      },
+      {
+        "en": "I was overwhelmed by all the emails.",
+        "ko": "쏟아지는 이메일에 정신이 없었어요."
+      },
+      {
+        "en": "Their kindness overwhelmed her.",
+        "ko": "그들의 친절에 그녀는 감동했어요."
       }
     ]
   },
@@ -73711,6 +73627,33 @@
     ]
   },
   {
+    "id": "perceive",
+    "word": "perceive",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "인식하다",
+      "여기다",
+      "감지하다"
+    ],
+    "examples": [
+      {
+        "en": "How do people perceive our brand?",
+        "ko": "사람들은 우리 브랜드를 어떻게 인식하나요?"
+      },
+      {
+        "en": "He is perceived as a strong leader.",
+        "ko": "그는 강한 지도자로 여겨져요."
+      },
+      {
+        "en": "Some animals can perceive sounds we cannot hear.",
+        "ko": "어떤 동물은 우리가 못 듣는 소리를 감지할 수 있어요."
+      }
+    ]
+  },
+  {
     "id": "permanent",
     "word": "permanent",
     "pos": [
@@ -73762,6 +73705,33 @@
       {
         "en": "Weather permitting, we will eat lunch on the patio.",
         "ko": "날씨가 허락하면 파티오에서 점심을 먹을 거예요."
+      }
+    ]
+  },
+  {
+    "id": "persist",
+    "word": "persist",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "지속되다",
+      "고집하다",
+      "끈질기게 계속하다"
+    ],
+    "examples": [
+      {
+        "en": "If the pain persists, see a doctor.",
+        "ko": "통증이 계속되면 병원에 가세요."
+      },
+      {
+        "en": "She persisted with her studies despite the problems.",
+        "ko": "그녀는 여러 문제에도 공부를 끈질기게 계속했어요."
+      },
+      {
+        "en": "He persists in calling me by the wrong name.",
+        "ko": "그는 계속 나를 엉뚱한 이름으로 불러요."
       }
     ]
   },
@@ -74109,6 +74079,33 @@
     ]
   },
   {
+    "id": "precise",
+    "word": "precise",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "정확한",
+      "정밀한",
+      "꼼꼼한"
+    ],
+    "examples": [
+      {
+        "en": "Can you give me the precise time?",
+        "ko": "정확한 시간을 알려 주실래요?"
+      },
+      {
+        "en": "The machine makes very precise cuts.",
+        "ko": "그 기계는 아주 정밀하게 잘라요."
+      },
+      {
+        "en": "She is precise in everything she does.",
+        "ko": "그녀는 무슨 일이든 꼼꼼하게 해요."
+      }
+    ]
+  },
+  {
     "id": "pregnant",
     "word": "pregnant",
     "pos": [
@@ -74341,6 +74338,58 @@
       {
         "en": "Is this the usual procedure for booking a room?",
         "ko": "이것이 객실을 예약하는 일반적인 절차인가요?"
+      }
+    ]
+  },
+  {
+    "id": "prohibit",
+    "word": "prohibit",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "금지하다"
+    ],
+    "examples": [
+      {
+        "en": "The law prohibits selling alcohol to children.",
+        "ko": "법은 아이들에게 술을 파는 것을 금지해요."
+      },
+      {
+        "en": "Parking is prohibited in front of the gate.",
+        "ko": "정문 앞은 주차 금지예요."
+      },
+      {
+        "en": "The school prohibits phones in class.",
+        "ko": "그 학교는 수업 중 휴대폰 사용을 금지해요."
+      }
+    ]
+  },
+  {
+    "id": "prominent",
+    "word": "prominent",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "저명한",
+      "눈에 띄는",
+      "두드러진"
+    ],
+    "examples": [
+      {
+        "en": "She is a prominent writer in Korea.",
+        "ko": "그녀는 한국의 저명한 작가예요."
+      },
+      {
+        "en": "Put the sign in a prominent place.",
+        "ko": "표지판을 눈에 잘 띄는 곳에 두세요."
+      },
+      {
+        "en": "Music plays a prominent role in the film.",
+        "ko": "그 영화에서 음악은 두드러진 역할을 해요."
       }
     ]
   },
@@ -74661,6 +74710,33 @@
     ]
   },
   {
+    "id": "random",
+    "word": "random",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "무작위의",
+      "임의의",
+      "뜬금없는"
+    ],
+    "examples": [
+      {
+        "en": "The winners were chosen at random.",
+        "ko": "당첨자는 무작위로 뽑혔어요."
+      },
+      {
+        "en": "Pick a random number between one and ten.",
+        "ko": "1부터 10 사이에서 아무 숫자나 고르세요."
+      },
+      {
+        "en": "A random man asked me for directions.",
+        "ko": "모르는 남자가 나에게 길을 물었어요."
+      }
+    ]
+  },
+  {
     "id": "rank",
     "word": "rank",
     "pos": [
@@ -74843,6 +74919,32 @@
       {
         "en": "Can you recall where you left your keys?",
         "ko": "열쇠를 어디에 두었는지 기억나세요?"
+      }
+    ]
+  },
+  {
+    "id": "reckless",
+    "word": "reckless",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "무모한",
+      "부주의한"
+    ],
+    "examples": [
+      {
+        "en": "He was fined for reckless driving.",
+        "ko": "그는 난폭 운전으로 벌금을 냈어요."
+      },
+      {
+        "en": "It was reckless to swim in such cold water.",
+        "ko": "그렇게 차가운 물에서 수영하는 건 무모했어요."
+      },
+      {
+        "en": "Reckless spending left him with no savings.",
+        "ko": "무분별한 소비로 그에게는 저축이 하나도 남지 않았어요."
       }
     ]
   },
@@ -75115,6 +75217,32 @@
     ]
   },
   {
+    "id": "reluctant",
+    "word": "reluctant",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "꺼리는",
+      "마지못한"
+    ],
+    "examples": [
+      {
+        "en": "She was reluctant to talk about her past.",
+        "ko": "그녀는 과거에 대해 이야기하기를 꺼렸어요."
+      },
+      {
+        "en": "He gave a reluctant smile.",
+        "ko": "그는 마지못해 웃었어요."
+      },
+      {
+        "en": "Many people are reluctant to change their habits.",
+        "ko": "많은 사람들이 습관 바꾸기를 꺼려요."
+      }
+    ]
+  },
+  {
     "id": "rely",
     "word": "rely",
     "pos": [
@@ -75275,6 +75403,32 @@
     ]
   },
   {
+    "id": "resemble",
+    "word": "resemble",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "닮다",
+      "비슷하다"
+    ],
+    "examples": [
+      {
+        "en": "You resemble your mother.",
+        "ko": "너는 엄마를 닮았구나."
+      },
+      {
+        "en": "The building resembles a giant ship.",
+        "ko": "그 건물은 거대한 배처럼 생겼어요."
+      },
+      {
+        "en": "His story closely resembles mine.",
+        "ko": "그의 이야기는 내 이야기와 아주 비슷해요."
+      }
+    ]
+  },
+  {
     "id": "reserve",
     "word": "reserve",
     "pos": [
@@ -75327,6 +75481,33 @@
       {
         "en": "Are you a resident of this building?",
         "ko": "이 건물에 사시나요?"
+      }
+    ]
+  },
+  {
+    "id": "resign",
+    "word": "resign",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "사임하다",
+      "그만두다",
+      "체념하다"
+    ],
+    "examples": [
+      {
+        "en": "The manager resigned after the scandal.",
+        "ko": "그 매니저는 스캔들 이후 사임했어요."
+      },
+      {
+        "en": "She resigned from her job to start a business.",
+        "ko": "그녀는 사업을 시작하려고 회사를 그만뒀어요."
+      },
+      {
+        "en": "He resigned himself to waiting another hour.",
+        "ko": "그는 한 시간 더 기다리기로 체념했어요."
       }
     ]
   },
@@ -75405,6 +75586,58 @@
       {
         "en": "Would you visit this mountain resort in winter?",
         "ko": "겨울에 이 산악 휴양지에 가시겠어요?"
+      }
+    ]
+  },
+  {
+    "id": "restore",
+    "word": "restore",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "복원하다",
+      "회복시키다"
+    ],
+    "examples": [
+      {
+        "en": "They spent years restoring the old house.",
+        "ko": "그들은 몇 년 동안 그 오래된 집을 복원했어요."
+      },
+      {
+        "en": "Power was restored after two hours.",
+        "ko": "두 시간 뒤에 전기가 다시 들어왔어요."
+      },
+      {
+        "en": "The new coach restored the team's confidence.",
+        "ko": "새 코치가 팀의 자신감을 되살렸어요."
+      }
+    ]
+  },
+  {
+    "id": "restrict",
+    "word": "restrict",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "제한하다",
+      "한정하다"
+    ],
+    "examples": [
+      {
+        "en": "The doctor told him to restrict salt in his diet.",
+        "ko": "의사는 그에게 식단에서 소금을 제한하라고 했어요."
+      },
+      {
+        "en": "Entry is restricted to members only.",
+        "ko": "입장은 회원에게만 허용돼요."
+      },
+      {
+        "en": "Heavy snow restricted travel in the area.",
+        "ko": "폭설로 그 지역의 이동이 제한됐어요."
       }
     ]
   },
@@ -75565,6 +75798,33 @@
       {
         "en": "How can I rid my desk of clutter?",
         "ko": "책상에서 잡동사니를 어떻게 치울 수 있을까요?"
+      }
+    ]
+  },
+  {
+    "id": "rigid",
+    "word": "rigid",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "엄격한",
+      "단단한",
+      "융통성 없는"
+    ],
+    "examples": [
+      {
+        "en": "The school has very rigid rules.",
+        "ko": "그 학교는 규칙이 아주 엄격해요."
+      },
+      {
+        "en": "The box is made of rigid plastic.",
+        "ko": "그 상자는 단단한 플라스틱으로 만들어졌어요."
+      },
+      {
+        "en": "He is too rigid to accept new ideas.",
+        "ko": "그는 너무 융통성이 없어서 새로운 생각을 받아들이지 못해요."
       }
     ]
   },
@@ -75832,6 +76092,32 @@
       {
         "en": "How large is the scale of this project?",
         "ko": "이 프로젝트의 규모는 얼마나 큰가요?"
+      }
+    ]
+  },
+  {
+    "id": "scarce",
+    "word": "scarce",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "부족한",
+      "드문"
+    ],
+    "examples": [
+      {
+        "en": "Water is scarce in the desert.",
+        "ko": "사막에서는 물이 귀해요."
+      },
+      {
+        "en": "Jobs were scarce after the factory closed.",
+        "ko": "공장이 문을 닫은 뒤 일자리가 부족했어요."
+      },
+      {
+        "en": "Fresh fruit was scarce during the winter.",
+        "ko": "겨울 동안 신선한 과일은 구하기 힘들었어요."
       }
     ]
   },
@@ -76585,6 +76871,32 @@
     ]
   },
   {
+    "id": "skeptical",
+    "word": "skeptical",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "회의적인",
+      "의심 많은"
+    ],
+    "examples": [
+      {
+        "en": "I'm skeptical about his promises.",
+        "ko": "나는 그의 약속에 회의적이에요."
+      },
+      {
+        "en": "Many scientists remain skeptical of the results.",
+        "ko": "많은 과학자들이 그 결과를 여전히 의심해요."
+      },
+      {
+        "en": "She gave me a skeptical look.",
+        "ko": "그녀는 미심쩍은 눈으로 나를 봤어요."
+      }
+    ]
+  },
+  {
     "id": "slide",
     "word": "slide",
     "pos": [
@@ -76904,6 +77216,32 @@
       {
         "en": "Which company will sponsor the school team?",
         "ko": "어느 회사가 학교 팀을 후원할까요?"
+      }
+    ]
+  },
+  {
+    "id": "spontaneous",
+    "word": "spontaneous",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "즉흥적인",
+      "자발적인"
+    ],
+    "examples": [
+      {
+        "en": "We took a spontaneous trip to the beach.",
+        "ko": "우리는 즉흥적으로 바닷가에 다녀왔어요."
+      },
+      {
+        "en": "The crowd broke into spontaneous applause.",
+        "ko": "관중은 저절로 박수를 쳤어요."
+      },
+      {
+        "en": "She is fun and spontaneous.",
+        "ko": "그녀는 재미있고 즉흥적인 사람이에요."
       }
     ]
   },
@@ -77282,6 +77620,58 @@
     ]
   },
   {
+    "id": "subtle",
+    "word": "subtle",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "미묘한",
+      "은은한",
+      "교묘한"
+    ],
+    "examples": [
+      {
+        "en": "There is a subtle difference between the two colors.",
+        "ko": "두 색 사이에는 미묘한 차이가 있어요."
+      },
+      {
+        "en": "The perfume has a subtle smell of roses.",
+        "ko": "그 향수에는 은은한 장미 향이 나요."
+      },
+      {
+        "en": "He made a subtle hint that he wanted to leave.",
+        "ko": "그는 떠나고 싶다는 뜻을 넌지시 내비쳤어요."
+      }
+    ]
+  },
+  {
+    "id": "sufficient",
+    "word": "sufficient",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "충분한"
+    ],
+    "examples": [
+      {
+        "en": "We have sufficient food for the trip.",
+        "ko": "여행에 필요한 음식은 충분해요."
+      },
+      {
+        "en": "There wasn't sufficient evidence to prove it.",
+        "ko": "그것을 증명할 충분한 증거가 없었어요."
+      },
+      {
+        "en": "One hour should be sufficient to finish the test.",
+        "ko": "시험을 끝내는 데 한 시간이면 충분할 거예요."
+      }
+    ]
+  },
+  {
     "id": "sum",
     "word": "sum",
     "pos": [
@@ -77628,6 +78018,32 @@
     ]
   },
   {
+    "id": "thorough",
+    "word": "thorough",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "철저한",
+      "빈틈없는"
+    ],
+    "examples": [
+      {
+        "en": "The police made a thorough search of the house.",
+        "ko": "경찰은 그 집을 철저히 수색했어요."
+      },
+      {
+        "en": "She is very thorough in her work.",
+        "ko": "그녀는 일을 아주 빈틈없이 해요."
+      },
+      {
+        "en": "Give the room a thorough cleaning before guests arrive.",
+        "ko": "손님이 오기 전에 방을 구석구석 청소하세요."
+      }
+    ]
+  },
+  {
     "id": "threat",
     "word": "threat",
     "pos": [
@@ -77680,6 +78096,32 @@
     ]
   },
   {
+    "id": "thrive",
+    "word": "thrive",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "번창하다",
+      "잘 자라다"
+    ],
+    "examples": [
+      {
+        "en": "These plants thrive in hot weather.",
+        "ko": "이 식물들은 더운 날씨에 잘 자라요."
+      },
+      {
+        "en": "Her small business is thriving.",
+        "ko": "그녀의 작은 사업은 번창하고 있어요."
+      },
+      {
+        "en": "Some people thrive under pressure.",
+        "ko": "어떤 사람들은 압박 속에서 더 잘해요."
+      }
+    ]
+  },
+  {
     "id": "thus",
     "word": "thus",
     "pos": [
@@ -77702,6 +78144,33 @@
       {
         "en": "Why was the form filled out thus?",
         "ko": "양식이 왜 이렇게 작성됐나요?"
+      }
+    ]
+  },
+  {
+    "id": "tolerate",
+    "word": "tolerate",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "참다",
+      "용인하다",
+      "견디다"
+    ],
+    "examples": [
+      {
+        "en": "I can't tolerate rude behavior.",
+        "ko": "무례한 행동은 참을 수 없어요."
+      },
+      {
+        "en": "The school does not tolerate bullying.",
+        "ko": "그 학교는 괴롭힘을 용납하지 않아요."
+      },
+      {
+        "en": "Some plants can tolerate very dry soil.",
+        "ko": "어떤 식물은 아주 건조한 흙도 견딜 수 있어요."
       }
     ]
   },
@@ -78312,6 +78781,32 @@
     ]
   },
   {
+    "id": "vague",
+    "word": "vague",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "모호한",
+      "희미한"
+    ],
+    "examples": [
+      {
+        "en": "His answer was too vague to be useful.",
+        "ko": "그의 대답은 너무 모호해서 쓸모가 없었어요."
+      },
+      {
+        "en": "I have a vague memory of that day.",
+        "ko": "그날이 희미하게 기억나요."
+      },
+      {
+        "en": "She was vague about her plans for the summer.",
+        "ko": "그녀는 여름 계획에 대해 애매하게 말했어요."
+      }
+    ]
+  },
+  {
     "id": "vary",
     "word": "vary",
     "pos": [
@@ -78600,6 +79095,32 @@
     ]
   },
   {
+    "id": "vivid",
+    "word": "vivid",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "생생한",
+      "선명한"
+    ],
+    "examples": [
+      {
+        "en": "I still have vivid memories of my first trip abroad.",
+        "ko": "첫 해외여행의 기억이 아직도 생생해요."
+      },
+      {
+        "en": "The garden is full of vivid colors in spring.",
+        "ko": "봄이면 정원은 선명한 색으로 가득해요."
+      },
+      {
+        "en": "She gave a vivid description of the storm.",
+        "ko": "그녀는 폭풍을 생생하게 묘사했어요."
+      }
+    ]
+  },
+  {
     "id": "volume",
     "word": "volume",
     "pos": [
@@ -78623,6 +79144,32 @@
       {
         "en": "Have you read the second volume of the series?",
         "ko": "그 시리즈의 두 번째 권을 읽으셨나요?"
+      }
+    ]
+  },
+  {
+    "id": "vulnerable",
+    "word": "vulnerable",
+    "pos": [
+      "adjective"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "취약한",
+      "상처받기 쉬운"
+    ],
+    "examples": [
+      {
+        "en": "Old people are more vulnerable to the flu.",
+        "ko": "노인들은 독감에 더 취약해요."
+      },
+      {
+        "en": "She felt vulnerable after the breakup.",
+        "ko": "이별 후 그녀는 상처받기 쉬운 상태였어요."
+      },
+      {
+        "en": "The computer is vulnerable to attack without updates.",
+        "ko": "업데이트하지 않으면 컴퓨터가 공격에 취약해요."
       }
     ]
   },
@@ -78964,6 +79511,33 @@
       {
         "en": "Would it be wise to book the tickets now?",
         "ko": "지금 표를 예약하는 게 현명할까요?"
+      }
+    ]
+  },
+  {
+    "id": "withdraw",
+    "word": "withdraw",
+    "pos": [
+      "verb"
+    ],
+    "cefr": "B2",
+    "meanings": [
+      "인출하다",
+      "철회하다",
+      "물러나다"
+    ],
+    "examples": [
+      {
+        "en": "I need to withdraw some cash from the bank.",
+        "ko": "은행에서 현금을 좀 인출해야 해요."
+      },
+      {
+        "en": "He withdrew from the race because of an injury.",
+        "ko": "그는 부상 때문에 경주에서 기권했어요."
+      },
+      {
+        "en": "The company withdrew its offer.",
+        "ko": "회사는 제안을 철회했어요."
       }
     ]
   },
