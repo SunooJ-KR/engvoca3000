@@ -1,7 +1,8 @@
 export default function App() {
   return (
     <main>
-      <h1>Oxford 3000</h1>
+      <p className="label">Oxford 3000</p>
+      <h1 className="display">Vocabulary</h1>
     </main>
   );
 }
