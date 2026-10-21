@@ -1,0 +1,182 @@
+[
+  { "id": "a", "word": "a", "pos": ["indefinite article"], "cefr": "A1", "meanings": ["하나의", "어떤"],
+    "examples": [
+      { "en": "I have a dog at home.", "ko": "나는 집에 개 한 마리가 있어." },
+      { "en": "Can I get a coffee, please?", "ko": "커피 한 잔 주시겠어요?" },
+      { "en": "She is a teacher at my school.", "ko": "그녀는 우리 학교 선생님이야." }
+    ] },
+  { "id": "about", "word": "about", "pos": ["preposition", "adverb"], "cefr": "A1", "meanings": ["~에 대해", "약, 대략"],
+    "examples": [
+      { "en": "What is this book about?", "ko": "이 책은 무슨 내용이야?" },
+      { "en": "We talked about the trip all night.", "ko": "우리는 밤새 여행 얘기를 했어." },
+      { "en": "The bus comes in about ten minutes.", "ko": "버스는 10분쯤 뒤에 와." }
+    ] },
+  { "id": "above", "word": "above", "pos": ["preposition", "adverb"], "cefr": "A1", "meanings": ["~위에", "위쪽에"],
+    "examples": [
+      { "en": "The clock is above the door.", "ko": "시계는 문 위에 있어." },
+      { "en": "My room is above the kitchen.", "ko": "내 방은 부엌 위층에 있어." },
+      { "en": "Look at the birds above us!", "ko": "우리 위에 있는 새들 좀 봐!" }
+    ] },
+  { "id": "across", "word": "across", "pos": ["preposition", "adverb"], "cefr": "A1", "meanings": ["건너서", "맞은편에"],
+    "examples": [
+      { "en": "The bank is across the street.", "ko": "은행은 길 건너편에 있어." },
+      { "en": "Let's walk across the bridge.", "ko": "다리를 걸어서 건너자." },
+      { "en": "He lives across from my house.", "ko": "그는 우리 집 맞은편에 살아." }
+    ] },
+  { "id": "action", "word": "action", "pos": ["noun"], "cefr": "A1", "meanings": ["행동", "액션"],
+    "examples": [
+      { "en": "We need to take action now.", "ko": "우리는 지금 행동해야 해." },
+      { "en": "Do you like action movies?", "ko": "액션 영화 좋아해?" },
+      { "en": "His actions surprised everyone.", "ko": "그의 행동은 모두를 놀라게 했어." }
+    ] },
+  { "id": "activity", "word": "activity", "pos": ["noun"], "cefr": "A1", "meanings": ["활동"],
+    "examples": [
+      { "en": "Swimming is my favorite activity.", "ko": "수영은 내가 제일 좋아하는 활동이야." },
+      { "en": "The school has many after-school activities.", "ko": "그 학교에는 방과 후 활동이 많아." },
+      { "en": "What activities do you do on weekends?", "ko": "주말에는 어떤 활동을 해?" }
+    ] },
+  { "id": "actor", "word": "actor", "pos": ["noun"], "cefr": "A1", "meanings": ["배우"],
+    "examples": [
+      { "en": "My brother wants to be an actor.", "ko": "우리 형은 배우가 되고 싶어 해." },
+      { "en": "Who is the actor in this movie?", "ko": "이 영화에 나오는 배우가 누구야?" },
+      { "en": "She met a famous actor at the airport.", "ko": "그녀는 공항에서 유명한 배우를 만났어." }
+    ] },
+  { "id": "actress", "word": "actress", "pos": ["noun"], "cefr": "A1", "meanings": ["여배우"],
+    "examples": [
+      { "en": "She is my favorite actress.", "ko": "그녀는 내가 제일 좋아하는 여배우야." },
+      { "en": "The actress smiled at the camera.", "ko": "그 여배우는 카메라를 향해 웃었어." },
+      { "en": "Is that actress on TV a lot?", "ko": "저 여배우 TV에 자주 나와?" }
+    ] },
+  { "id": "add", "word": "add", "pos": ["verb"], "cefr": "A1", "meanings": ["더하다", "추가하다", "덧붙이다"],
+    "examples": [
+      { "en": "Add some salt to the soup.", "ko": "수프에 소금을 좀 넣어." },
+      { "en": "If you add two and three, you get five.", "ko": "2와 3을 더하면 5가 돼." },
+      { "en": "Can you add my name to the list?", "ko": "명단에 내 이름 좀 추가해 줄래?" }
+    ] },
+  { "id": "address", "word": "address", "pos": ["noun"], "cefr": "A1", "meanings": ["주소"],
+    "examples": [
+      { "en": "What is your email address?", "ko": "이메일 주소가 뭐야?" },
+      { "en": "Please write your address here.", "ko": "여기에 주소를 써 주세요." },
+      { "en": "I moved, so my address changed.", "ko": "이사해서 주소가 바뀌었어." }
+    ] },
+  { "id": "adult", "word": "adult", "pos": ["noun", "adjective"], "cefr": "A1", "meanings": ["어른, 성인", "성인의"],
+    "examples": [
+      { "en": "Tickets are ten dollars for adults.", "ko": "어른 표는 10달러야." },
+      { "en": "Children must come with an adult.", "ko": "아이들은 어른과 함께 와야 해." },
+      { "en": "She has two adult sons.", "ko": "그녀는 다 큰 아들이 둘 있어." }
+    ] },
+  { "id": "advice", "word": "advice", "pos": ["noun"], "cefr": "A1", "meanings": ["조언, 충고"],
+    "examples": [
+      { "en": "Can I ask you for some advice?", "ko": "조언 좀 구해도 될까?" },
+      { "en": "My dad gave me good advice.", "ko": "아빠가 좋은 조언을 해 주셨어." },
+      { "en": "Take my advice and go to bed early.", "ko": "내 말 듣고 일찍 자." }
+    ] },
+  { "id": "afraid", "word": "afraid", "pos": ["adjective"], "cefr": "A1", "meanings": ["두려워하는", "유감스러운"],
+    "examples": [
+      { "en": "My little sister is afraid of dogs.", "ko": "내 여동생은 개를 무서워해." },
+      { "en": "Don't be afraid to ask questions.", "ko": "질문하는 걸 두려워하지 마." },
+      { "en": "I'm afraid I can't come tonight.", "ko": "미안하지만 오늘 밤엔 못 갈 것 같아." }
+    ] },
+  { "id": "after", "word": "after", "pos": ["preposition", "conjunction", "adverb"], "cefr": "A1", "meanings": ["~후에", "~한 뒤에"],
+    "examples": [
+      { "en": "Let's meet after class.", "ko": "수업 끝나고 만나자." },
+      { "en": "I always drink tea after dinner.", "ko": "나는 저녁 먹고 항상 차를 마셔." },
+      { "en": "Call me after you get home.", "ko": "집에 도착하면 전화해." }
+    ] },
+  { "id": "afternoon", "word": "afternoon", "pos": ["noun"], "cefr": "A1", "meanings": ["오후"],
+    "examples": [
+      { "en": "Are you free this afternoon?", "ko": "오늘 오후에 시간 있어?" },
+      { "en": "I take a short nap in the afternoon.", "ko": "나는 오후에 잠깐 낮잠을 자." },
+      { "en": "Good afternoon, how can I help you?", "ko": "안녕하세요, 무엇을 도와드릴까요?" }
+    ] },
+  { "id": "again", "word": "again", "pos": ["adverb"], "cefr": "A1", "meanings": ["다시", "또"],
+    "examples": [
+      { "en": "Can you say that again?", "ko": "다시 말해 줄래?" },
+      { "en": "It's raining again today.", "ko": "오늘 또 비가 와." },
+      { "en": "I hope to see you again soon.", "ko": "곧 다시 보길 바라." }
+    ] },
+  { "id": "age", "word": "age", "pos": ["noun"], "cefr": "A1", "meanings": ["나이", "시대"],
+    "examples": [
+      { "en": "We are the same age.", "ko": "우리는 동갑이야." },
+      { "en": "She started piano at the age of five.", "ko": "그녀는 다섯 살 때 피아노를 시작했어." },
+      { "en": "People of all ages love this game.", "ko": "모든 연령대의 사람들이 이 게임을 좋아해." }
+    ] },
+  { "id": "ago", "word": "ago", "pos": ["adverb"], "cefr": "A1", "meanings": ["~전에"],
+    "examples": [
+      { "en": "I met him two years ago.", "ko": "나는 그를 2년 전에 만났어." },
+      { "en": "She left a few minutes ago.", "ko": "그녀는 몇 분 전에 나갔어." },
+      { "en": "How long ago did you move here?", "ko": "여기로 얼마나 전에 이사 왔어?" }
+    ] },
+  { "id": "agree", "word": "agree", "pos": ["verb"], "cefr": "A1", "meanings": ["동의하다", "합의하다"],
+    "examples": [
+      { "en": "I agree with you.", "ko": "네 말에 동의해." },
+      { "en": "We agreed to meet at six.", "ko": "우리는 6시에 만나기로 했어." },
+      { "en": "Do you agree with his idea?", "ko": "그의 생각에 동의해?" }
+    ] },
+  { "id": "air", "word": "air", "pos": ["noun"], "cefr": "A1", "meanings": ["공기", "하늘, 공중"],
+    "examples": [
+      { "en": "Let's go outside and get some fresh air.", "ko": "밖에 나가서 바람 좀 쐬자." },
+      { "en": "The air is very clean here.", "ko": "여기는 공기가 정말 깨끗해." },
+      { "en": "He threw the ball into the air.", "ko": "그는 공을 공중으로 던졌어." }
+    ] },
+  { "id": "airport", "word": "airport", "pos": ["noun"], "cefr": "A1", "meanings": ["공항"],
+    "examples": [
+      { "en": "I'll pick you up at the airport.", "ko": "공항으로 데리러 갈게." },
+      { "en": "How do I get to the airport?", "ko": "공항에 어떻게 가요?" },
+      { "en": "The airport was very busy today.", "ko": "오늘 공항이 정말 붐볐어." }
+    ] },
+  { "id": "all", "word": "all", "pos": ["determiner", "pronoun", "adverb"], "cefr": "A1", "meanings": ["모든", "전부", "완전히"],
+    "examples": [
+      { "en": "All my friends came to the party.", "ko": "내 친구들이 모두 파티에 왔어." },
+      { "en": "Did you eat it all?", "ko": "그거 다 먹었어?" },
+      { "en": "I was all alone at home.", "ko": "나는 집에 완전히 혼자 있었어." }
+    ] },
+  { "id": "also", "word": "also", "pos": ["adverb"], "cefr": "A1", "meanings": ["또한, ~도"],
+    "examples": [
+      { "en": "I like cats, and I also like dogs.", "ko": "나는 고양이를 좋아하고, 개도 좋아해." },
+      { "en": "She speaks English and also French.", "ko": "그녀는 영어와 프랑스어도 해." },
+      { "en": "Can you also buy some milk?", "ko": "우유도 좀 사 줄래?" }
+    ] },
+  { "id": "always", "word": "always", "pos": ["adverb"], "cefr": "A1", "meanings": ["항상, 언제나"],
+    "examples": [
+      { "en": "He is always late for school.", "ko": "그는 항상 학교에 지각해." },
+      { "en": "I always eat breakfast at seven.", "ko": "나는 항상 7시에 아침을 먹어." },
+      { "en": "You can always call me.", "ko": "언제든지 나한테 전화해도 돼." }
+    ] },
+  { "id": "amazing", "word": "amazing", "pos": ["adjective"], "cefr": "A1", "meanings": ["놀라운", "굉장한"],
+    "examples": [
+      { "en": "The view from the top is amazing.", "ko": "꼭대기에서 보는 경치가 굉장해." },
+      { "en": "You did an amazing job!", "ko": "정말 잘했어!" },
+      { "en": "Isn't this cake amazing?", "ko": "이 케이크 정말 끝내주지 않아?" }
+    ] },
+  { "id": "and", "word": "and", "pos": ["conjunction"], "cefr": "A1", "meanings": ["그리고", "~와"],
+    "examples": [
+      { "en": "I bought bread and milk.", "ko": "나는 빵과 우유를 샀어." },
+      { "en": "She came home and went to bed.", "ko": "그녀는 집에 와서 잠자리에 들었어." },
+      { "en": "Come and sit with us.", "ko": "와서 우리랑 같이 앉아." }
+    ] },
+  { "id": "angry", "word": "angry", "pos": ["adjective"], "cefr": "A1", "meanings": ["화난"],
+    "examples": [
+      { "en": "Why are you so angry?", "ko": "왜 그렇게 화났어?" },
+      { "en": "My mom was angry with me.", "ko": "엄마가 나한테 화나셨어." },
+      { "en": "Don't get angry about small things.", "ko": "사소한 일에 화내지 마." }
+    ] },
+  { "id": "animal", "word": "animal", "pos": ["noun"], "cefr": "A1", "meanings": ["동물"],
+    "examples": [
+      { "en": "What is your favorite animal?", "ko": "제일 좋아하는 동물이 뭐야?" },
+      { "en": "We saw many animals at the zoo.", "ko": "우리는 동물원에서 동물을 많이 봤어." },
+      { "en": "Please don't feed the animals.", "ko": "동물에게 먹이를 주지 마세요." }
+    ] },
+  { "id": "another", "word": "another", "pos": ["determiner", "pronoun"], "cefr": "A1", "meanings": ["또 하나의", "다른"],
+    "examples": [
+      { "en": "Can I have another cookie?", "ko": "쿠키 하나 더 먹어도 돼?" },
+      { "en": "Let's try another restaurant.", "ko": "다른 식당에 가 보자." },
+      { "en": "This one is broken, so I need another.", "ko": "이건 고장 나서 다른 게 필요해." }
+    ] },
+  { "id": "answer", "word": "answer", "pos": ["noun", "verb"], "cefr": "A1", "meanings": ["대답, 답", "대답하다", "(전화를) 받다"],
+    "examples": [
+      { "en": "I don't know the answer.", "ko": "나는 답을 몰라." },
+      { "en": "Please answer the question.", "ko": "질문에 대답해 줘." },
+      { "en": "Why didn't you answer the phone?", "ko": "왜 전화 안 받았어?" }
+    ] }
+]
