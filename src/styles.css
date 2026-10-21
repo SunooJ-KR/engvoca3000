@@ -24,8 +24,15 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin: 0;
+  min-height: 100dvh;
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
@@ -42,7 +49,12 @@ button {
   font: inherit;
   color: inherit;
   cursor: pointer;
+  min-height: 44px;
+  touch-action: manipulation;
 }
+
+/* iOS는 16px 미만 입력창에 포커스하면 화면을 확대한다 */
+input { font: inherit; font-size: max(16px, 1em); }
 
 :focus-visible {
   outline: 2px solid var(--focus);
@@ -52,7 +64,11 @@ button {
 main {
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 32px 16px 120px;
+  padding:
+    calc(32px + env(safe-area-inset-top))
+    calc(16px + env(safe-area-inset-right))
+    calc(120px + env(safe-area-inset-bottom))
+    calc(16px + env(safe-area-inset-left));
 }
 
 .display {
