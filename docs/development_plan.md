@@ -55,7 +55,7 @@ interface Word {
 }
 ```
 
-`words.json`은 `Word[]`이며 배열 순서가 학습 순서다(A1 → B2, 등급 안에서 알파벳순). Unit `n`(1부터)은 `words.slice((n-1)*10, n*10)`이다.
+`words.json`은 `Word[]`이며 배열 순서가 학습 순서다(A1 → B2, 등급 안에서는 `build-data.mjs`가 id 해시 순서로 섞은 고정된 무작위 순서). 등급 파일(`data/levels`)은 CSV 순서 그대로 두고, 섞기는 병합할 때만 한다. 등급 데이터가 늘면 그 등급의 배치가 바뀌므로 등급이 완성된 뒤 반영한다. Unit `n`(1부터)은 `words.slice((n-1)*10, n*10)`이다.
 
 ### 3.2 제작 파이프라인
 
