@@ -237,3 +237,44 @@ main {
   background: var(--surface);
   font-weight: 600;
 }
+
+/* ---------- 홈 ---------- */
+.home-hero { padding: 24px 0 28px; }
+.home-hero .display { margin: 4px 0 8px; }
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 0 0 32px;
+  padding: 20px 0;
+  border-block: 1px solid var(--accent-soft);
+}
+.home-stats dd { margin: 4px 0 0; }
+
+.unit-list { margin: 0; padding: 0; list-style: none; }
+.unit-level { margin: 28px 0 8px; }
+.unit-list li:first-child .unit-level { margin-top: 0; }
+.unit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 0 4px;
+  border: 0;
+  border-bottom: 1px solid var(--accent-soft);
+  background: none;
+  text-align: left;
+}
+.unit-name { font-weight: 700; }
+.unit-status { font-size: 0.9375rem; font-weight: 600; color: var(--text-secondary); }
+.unit-active { color: var(--accent); }
+@media (hover: hover) {
+  .unit-row:hover { background: var(--surface); }
+}
+
+/* ---------- 복습 ---------- */
+.hint { margin-top: 16px; text-align: center; }
+.summary-score { margin: 12px 0 32px; }

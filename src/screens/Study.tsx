@@ -1,29 +1,21 @@
 import { useEffect } from 'react';
+import StudyHeader from '../components/StudyHeader';
 import WordCard from '../components/WordCard';
 import VerdictBar from '../components/VerdictBar';
 import { finishUnit, judge, move, nextUnit, type Progress, type Verdict } from '../lib/study';
-import type { Word } from '../types';
+import { getWord, words } from '../lib/words';
 
 interface Props {
   unit: number;
-  words: Word[];
-  byId: Map<string, Word>;
   progress: Progress;
   setProgress: (update: (p: Progress) => Progress) => void;
   onOpenUnit: (n: number) => void;
   onHome: () => void;
 }
 
-// ponytail: 데이터 갱신으로 사라진 단어도 판정은 할 수 있게 자리만 채운다
-const missing = (id: string): Word => ({
-  id, word: id, pos: ['?'], cefr: 'A1', meanings: ['(데이터에서 삭제된 단어)'], examples: [],
-});
-
-export default function Study({ unit, words, byId, progress, setProgress, onOpenUnit, onHome }: Props) {
-  const record = progress.units[unit];
-  const { cards, newCount, pos } = record;
+export default function Study({ unit, progress, setProgress, onOpenUnit, onHome }: Props) {
+  const { cards, newCount, pos } = progress.units[unit];
   const finished = pos >= cards.length;
-  const showTranslation = progress.settings.showTranslation;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -35,21 +27,10 @@ export default function Study({ unit, words, byId, progress, setProgress, onOpen
       return pos + 1 >= cards.length ? finishUnit(next, unit) : next;
     });
 
-  const toggleTranslation = () =>
-    setProgress((p) => ({ ...p, settings: { ...p.settings, showTranslation: !p.settings.showTranslation } }));
-
-  const header = (
-    <header className="study-head">
-      <button type="button" className="btn-text" onClick={onHome}>← 홈</button>
-      <p className="title">Unit {unit}</p>
-      <button type="button" className="btn-text" onClick={toggleTranslation} aria-pressed={showTranslation}>
-        번역 {showTranslation ? '켜짐' : '꺼짐'}
-      </button>
-    </header>
-  );
+  const header = <StudyHeader title={`Unit ${unit}`} progress={progress} setProgress={setProgress} onHome={onHome} />;
 
   if (finished) {
-    const verdicts = cards.map((id) => progress.words[id]);
+    const known = cards.filter((id) => progress.words[id] === 'known').length;
     const keeps = cards.filter((id) => progress.words[id] === 'keep');
     const next = nextUnit(progress, words);
     return (
@@ -58,14 +39,14 @@ export default function Study({ unit, words, byId, progress, setProgress, onOpen
         <section className="summary">
           <p className="label">학습 완료</p>
           <div className="summary-counts">
-            <p><span className="display count-known">{verdicts.filter((v) => v === 'known').length}</span> 알아요</p>
+            <p><span className="display count-known">{known}</span> 알아요</p>
             <p><span className="display count-keep">{keeps.length}</span> Keep</p>
           </div>
           {keeps.length > 0 && (
             <>
               <p className="secondary">다음 Unit으로 넘어갈 단어</p>
               <ul className="chip-list" lang="en">
-                {keeps.map((id) => <li key={id}>{byId.get(id)?.word ?? id}</li>)}
+                {keeps.map((id) => <li key={id}>{getWord(id).word}</li>)}
               </ul>
             </>
           )}
@@ -100,7 +81,7 @@ export default function Study({ unit, words, byId, progress, setProgress, onOpen
         </div>
       </div>
 
-      <WordCard key={id} word={byId.get(id) ?? missing(id)} isKeep={pos >= newCount} showTranslation={showTranslation} />
+      <WordCard key={id} word={getWord(id)} isKeep={pos >= newCount} showTranslation={progress.settings.showTranslation} />
 
       {pos > 0 && (
         <button type="button" className="btn-text prev" onClick={() => setProgress((p) => move(p, unit, pos - 1))}>
