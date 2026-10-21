@@ -1,5 +1,6 @@
 // data/levels/{a1,a2,b1,b2}.json 검증 후 src/data/words.json으로 병합한다. 등급 순서는 유지하고 등급 안은 섞는다.
 // 사용: node scripts/build-data.mjs [--check]   (--check: 검사만, 파일 쓰지 않음)
+//       node scripts/build-data.mjs --check-file <path> <A1|A2|B1|B2>   (임시 파일 하나만 검사)
 // 형식 기준은 src/types.ts의 Word 타입이다.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 
@@ -59,7 +60,19 @@ function mentions(sentence, id) {
   return new RegExp(`\\b${stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`).test(text);
 }
 
+// 병렬 작업용: 임시 파일 하나만 검증. node scripts/build-data.mjs --check-file data/staging/b1-001-200.json B1
+function checkFile(path, level) {
+  const words = JSON.parse(readFileSync(path, 'utf8'));
+  const { errors, warnings } = validate(words, level);
+  errors.forEach((m) => console.error(`✗ ${m}`));
+  warnings.forEach((m) => console.warn(`! ${m}`));
+  console.log(`${path}: ${words.length}단어, 오류 ${errors.length}, 경고 ${warnings.length}`);
+  if (errors.length > 0) process.exit(1);
+}
+
 function main() {
+  const fileArg = process.argv.indexOf('--check-file');
+  if (fileArg !== -1) return checkFile(process.argv[fileArg + 1], process.argv[fileArg + 2]);
   const check = process.argv.includes('--check');
   const all = [];
   let errorCount = 0;
