@@ -182,8 +182,28 @@ main {
 @keyframes fade-in { from { opacity: 0; } }
 
 .card-head { margin-bottom: 28px; }
-.word { margin: 4px 0 8px; white-space: nowrap; }
-.word-long { font-size: clamp(2rem, 7vw, 3.5rem); }
+.word-line { display: flex; align-items: center; gap: 8px; margin: 4px 0 8px; }
+.word { min-width: 0; white-space: nowrap; }
+
+.speak {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--text-secondary);
+}
+.speak-large { color: var(--accent); background: var(--bg); margin-top: 0; }
+.speak:active { opacity: 0.7; }
+@media (hover: hover) {
+  .speak:hover { color: var(--accent); background: var(--bg); }
+}
+.word-long { font-size: clamp(1.75rem, 7vw, 3.5rem); }
 
 .tag {
   display: inline-block;
@@ -208,12 +228,18 @@ main {
 
 .examples { margin: 0; padding: 0; list-style: none; }
 .examples li + li { margin-top: 8px; }
+.example-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  border-top: 1px solid var(--accent-soft);
+}
 .example {
   display: block;
-  width: 100%;
+  flex: 1;
+  min-width: 0;
   padding: 12px 0;
   border: 0;
-  border-top: 1px solid var(--accent-soft);
   background: none;
   text-align: left;
   cursor: pointer;
