@@ -60,8 +60,8 @@ interface Word {
 ### 3.2 제작 파이프라인
 
 1. **원본 목록:** Oxford 3000 목록을 `data/source/oxford3000.csv`(word, pos, cefr)로 정리한다. 같은 단어의 여러 품사는 한 줄로 합친다.
-2. **초안 생성:** LLM으로 등급별 뜻·예문 초안을 만들어 `data/levels/a1.json` 형태로 저장한다. 요청 기준: 일상회화 중심, 예문 3개가 서로 다른 상황·용법, 해당 CEFR 수준의 쉬운 어휘, 자연스러운 한국어 번역.
-3. **자동 검증:** `node scripts/build-data.mjs`가 아래를 검사하고 통과하면 `src/data/words.json`을 생성한다.
+2. **초안 생성:** Codex가 [codex_data_task.md](codex_data_task.md) 지시에 따라 등급별 뜻·예문을 만들어 `data/levels/a1.json` 형태로 저장한다.
+3. **자동 검증:** `node scripts/build-data.mjs`가 아래를 검사하고 통과하면 `src/data/words.json`을 생성한다. `--check` 옵션은 검사만 하고 파일을 쓰지 않는다(Codex용).
    - 필수 필드 존재, 빈 문자열 없음
    - `examples`가 정확히 3개, `meanings`가 1~3개
    - `id` 중복 없음, `cefr` 값 유효
@@ -192,6 +192,7 @@ URL hash로 화면을 나눈다. 라이브러리 없이 `hashchange` 이벤트 �
   --text:           #253F86; /* Deep Blue, 대비 약 8.6:1 */
   --text-secondary: #55628F; /* 보조 텍스트, 약 5.2:1 */
   --accent:         #3653AC; /* Primary Blue: 주요 버튼, 선택 상태 */
+  --on-accent:      #FFFFFF; /* accent 배경 위 글자, 약 7.1:1 */
   --accent-soft:    #C4CEEA; /* Pale Blue: 구분선, 진행 막대 배경 */
   --muted:          #8096D1; /* Muted Blue: 장식 전용, 텍스트 사용 금지 (약 2.8:1) */
   --known:          #1E7A4F; /* 알아요, 약 4.7:1 */
@@ -201,7 +202,8 @@ URL hash로 화면을 나눈다. 라이브러리 없이 `hashchange` 이벤트 �
 ```
 
 - 알아요 / Keep은 테마 원칙대로 브랜드 블루와 다른 색을 쓰고, 색만으로 구분하지 않도록 **항상 텍스트 라벨**을 함께 표시한다.
-- 다크 모드는 만들지 않는다. 필요해지면 위 토큰만 재정의한다.
+- 컴포넌트에서는 `var(--토큰)`만 쓰고 hex 값을 직접 쓰지 않는다. 버튼 글자색도 `#fff`가 아니라 `var(--on-accent)`로 지정한다.
+- 다크 모드는 만들지 않는다. 필요해지면 `@media (prefers-color-scheme: dark)` 안에서 위 토큰 값만 재정의한다. 이때 `--accent`가 밝은 블루로 바뀌므로 `--on-accent`는 어두운 색으로 바꾼다.
 
 ### 7.2 타이포그래피
 
@@ -237,14 +239,14 @@ URL hash로 화면을 나눈다. 라이브러리 없이 `hashchange` 이벤트 �
 
 | 단계 | 작업 | 완료 기준 |
 |---|---|---|
-| **M0. 셋업** | Vite + React + TS, Vitest, Pretendard, `styles.css` 토큰, 샘플 30단어, Vercel 연결 | 배포 URL에서 빈 홈 화면이 테마 색·서체로 보인다 |
+| **M0. 셋업** | Vite + React + TS, Vitest, Pretendard, `styles.css` 토큰, 샘플 30단어, `build-data.mjs`, Vercel 연결 | 배포 URL에서 빈 홈 화면이 테마 색·서체로 보인다 |
 | **M1. 핵심 로직** | `study.ts`, `storage.ts`, 5장 시나리오 테스트 | `npm test` 통과 |
 | **M2. 학습 모드** | `WordCard`, `VerdictBar`, `Study`(학습), 완료 요약, 이어서 학습 | 샘플 3 Unit을 순서대로 학습하며 Keep 단어가 다음 Unit에 따라오고, 새로고침해도 같은 카드에서 이어진다 |
 | **M3. 홈 + 복습** | `Home`, 진행률, hash 라우팅, `Study`(복습) | 완료 Unit을 누르면 복습 모드가 열리고, 뒤로가기로 홈에 돌아온다 |
 | **M4. 사용성** | 발음, 키보드, 스와이프, `Search`, 모바일 레이아웃, 포커스·대비 점검 | 휴대폰에서 한 손으로 1 Unit을 끝낼 수 있고, PC에서 마우스 없이 1 Unit을 끝낼 수 있다 |
 | **M5. 실데이터** | A1 데이터 반영 → 실사용 → A2·B1·B2 순서로 추가 | 전체 데이터가 `build-data.mjs` 검증을 통과하고 앱에 반영된다 |
 
-**데이터 트랙**은 M0과 동시에 시작한다. 원본 CSV 정리 → `build-data.mjs` 작성 → A1 생성·검수 순서로 진행하며, M4가 끝날 때 A1이 준비되어 있는 것을 목표로 한다.
+**데이터 트랙**은 Codex가 `data` 브랜치에서 진행한다([codex_data_task.md](codex_data_task.md)). `build-data.mjs`는 데이터 형식의 기준이므로 앱 트랙 M0에서 먼저 만들어 `data` 브랜치에 반영한 뒤 Codex 작업을 시작한다. M4가 끝날 때 A1이 준비되어 있는 것을 목표로 한다.
 
 M5 이후 2주 정도 실제로 매일 써본 뒤, [functions.md](functions.md) 4장의 부가 기능(백업/복원, PWA, Keep 상한) 중 필요하다고 느낀 것만 추가한다.
 
@@ -252,3 +254,17 @@ M5 이후 2주 정도 실제로 매일 써본 뒤, [functions.md](functions.md) 
 
 - Vercel에 GitHub 저장소를 연결하고 `main` 브랜치 push 시 자동 배포. 빌드 명령 `npm run build`, 출력 `dist`.
 - 데이터는 번들에 포함되므로 별도 설정이 없다. `words.json` 약 1.5MB(gzip 후 약 400KB)로 첫 로드 이후에는 즉시 동작한다.
+
+## 10. 커밋 규칙
+
+**작업 단위 하나 = 커밋 하나.** 작업 단위는 8장 마일스톤의 작업 항목 하나(예: `study.ts`와 그 테스트, `WordCard`, hash 라우팅)다. 여러 단위를 한 커밋에 섞지 않는다.
+
+| 트랙 | 브랜치 | 단위 | 메시지 예 |
+|---|---|---|---|
+| 앱 | `master` | 마일스톤 작업 항목 하나 | `feat(study): add unit composition and keep logic` |
+| 데이터 | `data` | 100단어 | `data(a1): words 1-100` ([codex_data_task.md](codex_data_task.md) 5장) |
+
+- 접두어: `feat`(기능), `fix`(버그), `style`(디자인·CSS), `chore`(설정·의존성), `docs`(문서), `data`(단어 데이터).
+- 커밋 전에 `npm test`와 `npm run build`가 통과해야 한다. 실패한 상태로 커밋하지 않는다.
+- 마일스톤이 끝나면 완료 기준을 확인한 뒤 태그를 단다: `m0`, `m1` …
+- 데이터 등급이 끝나면 `data` 브랜치를 `master`에 병합하고, `node scripts/build-data.mjs`로 `words.json`을 갱신해 `data: merge a1 into words.json`으로 커밋한다.
