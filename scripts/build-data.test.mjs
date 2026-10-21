@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { validate } from './build-data.mjs';
+import { shuffleLevel, validate } from './build-data.mjs';
 
 const ok = {
   id: 'run',
@@ -33,4 +33,13 @@ test('catches schema errors', () => {
   expect(errors.some((e) => e.includes('중복'))).toBe(true);
   expect(errors.some((e) => e.includes('cefr'))).toBe(true);
   expect(errors.some((e) => e.includes('meanings'))).toBe(true);
+});
+
+test('shuffleLevel is a stable permutation, independent of input order', () => {
+  const words = ['apple', 'bank', 'cat', 'dog', 'egg', 'fish', 'go', 'hat'].map((id) => ({ id }));
+  const a = shuffleLevel(words).map((w) => w.id);
+  const b = shuffleLevel([...words].reverse()).map((w) => w.id);
+  expect(a).toEqual(b);
+  expect([...a].sort()).toEqual(words.map((w) => w.id));
+  expect(a).not.toEqual(words.map((w) => w.id));
 });

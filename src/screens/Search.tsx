@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import WordCard from '../components/WordCard';
 import type { Progress } from '../lib/study';
 import { getWord, unitOf, words } from '../lib/words';
+import type { Word } from '../types';
 
 interface Props {
   progress: Progress;
@@ -28,7 +29,9 @@ export default function Search({ progress, selected, onSelect, onBackToList, onH
     const rest = base.filter(
       (w) => !w.id.startsWith(query) && (w.id.includes(query) || w.meanings.some((m) => m.includes(query))),
     );
-    return [...starts, ...rest];
+    // words 순서는 Unit 배치용으로 섞여 있으므로 결과는 알파벳순으로 정렬한다
+    const byWord = (a: Word, b: Word) => a.id.localeCompare(b.id);
+    return [...starts.sort(byWord), ...rest.sort(byWord)];
   }, [query, keepOnly, progress.words]);
 
   if (selected) {
