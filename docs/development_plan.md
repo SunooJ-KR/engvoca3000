@@ -261,10 +261,10 @@ M5 이후 2주 정도 실제로 매일 써본 뒤, [functions.md](functions.md) 
 
 | 트랙 | 브랜치 | 단위 | 메시지 예 |
 |---|---|---|---|
-| 앱 | `master` | 마일스톤 작업 항목 하나 | `feat(study): add unit composition and keep logic` |
+| 앱 | `main` | 마일스톤 작업 항목 하나 | `feat(study): add unit composition and keep logic` |
 | 데이터 | `data` | 100단어 | `data(a1): words 1-100` ([codex_data_task.md](codex_data_task.md) 5장) |
 
 - 접두어: `feat`(기능), `fix`(버그), `style`(디자인·CSS), `chore`(설정·의존성), `docs`(문서), `data`(단어 데이터).
 - 커밋 전에 `npm test`와 `npm run build`가 통과해야 한다. 실패한 상태로 커밋하지 않는다.
 - 마일스톤이 끝나면 완료 기준을 확인한 뒤 태그를 단다: `m0`, `m1` …
-- 데이터 등급이 끝나면 `data` 브랜치를 `master`에 병합하고, `node scripts/build-data.mjs`로 `words.json`을 갱신해 `data: merge a1 into words.json`으로 커밋한다.
+- 데이터 등급이 끝나면 `data` 브랜치를 `main`에 병합하고, `node scripts/build-data.mjs`로 `words.json`을 갱신해 `data: merge a1 into words.json`으로 커밋한다.
