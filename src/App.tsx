@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { startUnit, unitCount, type Progress } from './lib/study';
+import { emptyProgress, startUnit, unitCount, type Progress } from './lib/study';
 import { load, save } from './lib/storage';
 import { applyOrder, words } from './lib/words';
 import Home from './screens/Home';
@@ -50,6 +50,13 @@ export default function App() {
     else history.replaceState(history.state, '', hash);
     setRoute(parse(hash));
   };
+  // 되돌릴 수 없으므로 한 번 더 확인한다. 새 seed로 새 단어 순서가 정해진다.
+  const reset = () => {
+    const ok = confirm(
+      '학습 기록을 모두 지울까요?\n\n판정, Keep 단어, Unit 진행 상황, 설정이 이 브라우저에서 삭제되고 되돌릴 수 없어요. 단어 순서도 새로 섞여요.',
+    );
+    if (ok) setProgress(emptyProgress());
+  };
   const goHome = () => (history.state?.fromHome ? history.back() : navigate('#/', false));
 
   if (route.name === 'search') {
@@ -75,6 +82,7 @@ export default function App() {
       progress={progress}
       onOpenUnit={(n) => navigate(`#/unit/${n}`, 'fromHome')}
       onSearch={() => navigate('#/search', 'fromHome')}
+      onReset={reset}
     />
   );
 }

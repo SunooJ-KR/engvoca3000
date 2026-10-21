@@ -6,9 +6,10 @@ interface Props {
   progress: Progress;
   onOpenUnit: (n: number) => void;
   onSearch: () => void;
+  onReset: () => void;
 }
 
-export default function Home({ progress, onOpenUnit, onSearch }: Props) {
+export default function Home({ progress, onOpenUnit, onSearch, onReset }: Props) {
   const s = stats(progress, words);
   const next = nextUnit(progress, words);
   const current = useRef<HTMLLIElement>(null);
@@ -65,6 +66,11 @@ export default function Home({ progress, onOpenUnit, onSearch }: Props) {
           );
         })}
       </ol>
+
+      <section className="reset">
+        <button type="button" className="btn-text btn-danger" onClick={onReset}>학습 기록 초기화</button>
+        <p className="secondary">판정, Keep, 진행 위치가 모두 지워지고 새 단어 순서로 처음부터 시작해요.</p>
+      </section>
 
       {next !== null && (
         <div className="bottom-bar">
