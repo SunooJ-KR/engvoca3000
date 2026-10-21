@@ -1,7 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import StudyHeader from '../components/StudyHeader';
 import WordCard from '../components/WordCard';
 import VerdictBar from '../components/VerdictBar';
+import { useKeys, useSwipe } from '../lib/input';
+import { speak } from '../lib/speech';
 import { finishUnit, judge, move, nextUnit, type Progress, type Verdict } from '../lib/study';
 import { getWord, words } from '../lib/words';
 
@@ -16,9 +18,12 @@ interface Props {
 export default function Study({ unit, progress, setProgress, onOpenUnit, onHome }: Props) {
   const { cards, newCount, pos } = progress.units[unit];
   const finished = pos >= cards.length;
+  // 이전으로 돌아갔을 때만 판정 없이 앞으로 갈 수 있다 (이미 본 카드까지)
+  const [furthest, setFurthest] = useState(pos);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    setFurthest((f) => Math.max(f, pos));
   }, [pos]);
 
   const decide = (verdict: Verdict) =>
@@ -26,6 +31,22 @@ export default function Study({ unit, progress, setProgress, onOpenUnit, onHome 
       const next = move(judge(p, cards[pos], verdict), unit, pos + 1);
       return pos + 1 >= cards.length ? finishUnit(next, unit) : next;
     });
+
+  const goPrev = pos > 0 && !finished ? () => setProgress((p) => move(p, unit, pos - 1)) : undefined;
+  const goNext = pos < furthest && !finished ? () => setProgress((p) => move(p, unit, pos + 1)) : undefined;
+
+  useKeys(
+    finished
+      ? {}
+      : {
+          ArrowLeft: goPrev,
+          ArrowRight: goNext,
+          '1': () => decide('keep'),
+          '2': () => decide('known'),
+          p: () => speak(getWord(cards[pos]).word),
+        },
+  );
+  const swipe = useSwipe(goNext, goPrev);
 
   const header = <StudyHeader title={`Unit ${unit}`} progress={progress} setProgress={setProgress} onHome={onHome} />;
 
@@ -81,12 +102,15 @@ export default function Study({ unit, progress, setProgress, onOpenUnit, onHome 
         </div>
       </div>
 
-      <WordCard key={id} word={getWord(id)} isKeep={pos >= newCount} showTranslation={progress.settings.showTranslation} />
+      <div className="swipe-area" {...swipe}>
+        <WordCard key={id} word={getWord(id)} isKeep={pos >= newCount} showTranslation={progress.settings.showTranslation} />
+      </div>
 
-      {pos > 0 && (
-        <button type="button" className="btn-text prev" onClick={() => setProgress((p) => move(p, unit, pos - 1))}>
-          ← 이전 단어
-        </button>
+      {(goPrev || goNext) && (
+        <div className="card-nav">
+          {goPrev ? <button type="button" className="btn-text" onClick={goPrev}>← 이전 단어</button> : <span />}
+          {goNext && <button type="button" className="btn-text" onClick={goNext}>다음 단어 →</button>}
+        </div>
       )}
 
       <VerdictBar onKeep={() => decide('keep')} onKnown={() => decide('known')} />

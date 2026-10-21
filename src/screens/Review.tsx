@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import StudyHeader from '../components/StudyHeader';
 import WordCard from '../components/WordCard';
 import VerdictBar from '../components/VerdictBar';
+import { useKeys } from '../lib/input';
+import { speak } from '../lib/speech';
 import { judge, reviewCards, type Progress, type Verdict } from '../lib/study';
 import { getWord } from '../lib/words';
 
@@ -30,6 +32,18 @@ export default function Review({ unit, progress, setProgress, onHome }: Props) {
     setPos(pos + 1);
   };
 
+  const done = pos >= cards.length;
+  useKeys(
+    done
+      ? {}
+      : {
+          Space: revealed ? undefined : () => setRevealed(true),
+          '1': revealed ? () => decide('keep') : undefined,
+          '2': revealed ? () => decide('known') : undefined,
+          p: () => speak(getWord(cards[pos]).word),
+        },
+  );
+
   const restart = () => {
     setPos(0);
     setResults([]);
@@ -38,7 +52,7 @@ export default function Review({ unit, progress, setProgress, onHome }: Props) {
 
   const header = <StudyHeader title={`Unit ${unit} 복습`} progress={progress} setProgress={setProgress} onHome={onHome} />;
 
-  if (pos >= cards.length) {
+  if (done) {
     const known = results.filter((v) => v === 'known').length;
     const keeps = cards.filter((_, i) => results[i] === 'keep');
     return (
@@ -91,7 +105,9 @@ export default function Review({ unit, progress, setProgress, onHome }: Props) {
       ) : (
         <div className="bottom-bar">
           <div className="bottom-bar-inner">
-            <button type="button" className="btn btn-primary" onClick={() => setRevealed(true)}>정답 보기</button>
+            <button type="button" className="btn btn-primary" onClick={() => setRevealed(true)}>
+              정답 보기<kbd className="kbd">Space</kbd>
+            </button>
           </div>
         </div>
       )}

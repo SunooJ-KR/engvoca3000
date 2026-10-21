@@ -170,7 +170,8 @@ main {
 }
 .bar-fill { height: 100%; background: var(--accent); transition: width 0.15s; }
 
-.prev { margin-top: 16px; }
+.swipe-area { touch-action: pan-y; }
+.card-nav { display: flex; justify-content: space-between; margin-top: 12px; }
 
 /* ---------- 단어 카드 ---------- */
 .card {
@@ -304,3 +305,18 @@ main {
 /* ---------- 복습 ---------- */
 .hint { margin-top: 16px; text-align: center; }
 .summary-score { margin: 12px 0 32px; }
+
+/* 키보드 단축키 힌트: 마우스·키보드 환경에서만 */
+.kbd { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  .kbd {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 0 6px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    font-size: var(--fs-label);
+    font-weight: 600;
+    opacity: 0.7;
+  }
+}
