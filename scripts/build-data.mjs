@@ -1,4 +1,4 @@
-// data/levels/{a1,a2,b1,b2}.json 검증 후 src/data/words.json으로 병합한다.
+// data/levels/{a1,a2,b1,b2}.json 검증 후 src/data/words.json으로 병합한다. 등급 순서는 유지하고 등급 안은 섞는다.
 // 사용: node scripts/build-data.mjs [--check]   (--check: 검사만, 파일 쓰지 않음)
 // 형식 기준은 src/types.ts의 Word 타입이다.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -35,6 +35,20 @@ export function validate(words, level) {
   });
 
   return { errors, warnings };
+}
+
+// 등급 안에서 Unit 배치를 섞는다. id 해시 순서라 빌드할 때마다 같은 결과(고정된 무작위)가 나온다.
+// 등급 파일에 단어가 추가되면 그 등급의 배치는 바뀌므로, 등급 데이터가 완성된 뒤 반영한다.
+export function shuffleLevel(words) {
+  const hash = (s) => {
+    let h = 0x811c9dc5; // FNV-1a 32bit
+    for (const c of s) h = Math.imul(h ^ c.codePointAt(0), 0x01000193) >>> 0;
+    return h;
+  };
+  return words
+    .map((w) => [hash(w.id), w])
+    .sort((a, b) => a[0] - b[0] || (a[1].id < b[1].id ? -1 : 1))
+    .map(([, w]) => w);
 }
 
 // ponytail: 접두어 비교라 불규칙 변화형(go → went)은 경고로 남는다. 오류가 아니라 경고인 이유.
@@ -75,7 +89,7 @@ function main() {
     errorCount += errors.length;
     warningCount += warnings.length;
     console.log(`${level}: ${words.length}단어, 오류 ${errors.length}, 경고 ${warnings.length}`);
-    all.push(...words);
+    all.push(...shuffleLevel(words));
   }
 
   const seen = new Set();
