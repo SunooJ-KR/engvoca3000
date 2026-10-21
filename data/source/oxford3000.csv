@@ -131,7 +131,7 @@ carrot,noun,A1
 carry,verb,A1
 cat,noun,A1
 cent,noun,A1
-centre,noun;verb,A1
+center,noun;verb,A1
 century,noun,A1
 chair,noun;verb,A1
 change,verb;noun,A1
@@ -157,7 +157,7 @@ coat,noun,A1
 coffee,noun,A1
 cold,adjective;noun,A1
 college,noun,A1
-colour,noun,A1
+color,noun,A1
 come,verb,A1
 common,adjective;noun,A1
 company,noun,A1
@@ -272,7 +272,7 @@ farmer,noun,A1
 fast,adjective;adverb,A1
 fat,adjective;noun,A1
 father,noun,A1
-favourite,adjective;noun,A1
+favorite,adjective;noun,A1
 February,noun,A1
 feel,verb;noun,A1
 feeling,noun,A1
@@ -334,7 +334,7 @@ grandmother,noun,A1
 grandparent,noun,A1
 great,adjective,A1
 green,adjective;noun,A1
-grey,adjective;noun,A1
+gray,adjective;noun,A1
 group,noun,A1
 grow,verb,A1
 guess,verb;noun,A1
@@ -414,7 +414,7 @@ June,noun,A1
 just,adverb,A1
 keep,verb,A1
 key,noun;adjective;verb,A1
-kilometre,noun,A1
+kilometer,noun,A1
 kind,noun;adjective,A1
 kitchen,noun,A1
 know,verb,A1
@@ -473,7 +473,7 @@ meeting,noun,A1
 member,noun,A1
 menu,noun,A1
 message,noun,A1
-metre,noun,A1
+meter,noun,A1
 midnight,noun,A1
 mile,noun,A1
 milk,noun,A1
@@ -497,7 +497,7 @@ mouth,noun,A1
 move,verb;noun,A1
 movie,noun,A1
 much,determiner;pronoun;adverb,A1
-mum,noun,A1
+mom,noun,A1
 museum,noun,A1
 music,noun,A1
 must,modal verb,A1
@@ -507,7 +507,7 @@ natural,adjective,A1
 near,preposition;adjective;adverb,A1
 need,verb;noun;modal verb,A1
 negative,adjective;noun,A1
-neighbour,noun,A1
+neighbor,noun,A1
 never,adverb,A1
 new,adjective,A1
 news,noun,A1
@@ -608,8 +608,7 @@ possible,adjective,A1
 post,noun;verb,A1
 potato,noun,A1
 pound,noun,A1
-practice,noun,A1
-practise,verb,A1
+practice,noun;verb,A1
 prefer,verb,A1
 prepare,verb,A1
 present,adjective;noun;verb,A1
@@ -618,7 +617,7 @@ price,noun;verb,A1
 probably,adverb,A1
 problem,noun,A1
 product,noun,A1
-programme,noun,A1
+program,noun;verb,A1
 project,noun;verb,A1
 purple,adjective;noun,A1
 put,verb,A1
@@ -775,7 +774,7 @@ thank,verb,A1
 thanks,exclamation;noun,A1
 that,determiner;pronoun;conjunction;adverb,A1
 the,definite article,A1
-theatre,noun,A1
+theater,noun,A1
 their,determiner,A1
 them,pronoun,A1
 then,adverb,A1
@@ -931,7 +930,7 @@ among,preposition,A2
 amount,noun;verb,A2
 ancient,adjective,A2
 ankle,noun,A2
-any more,adverb,A2
+anymore,adverb,A2
 anybody,pronoun,A2
 anyway,adverb,A2
 anywhere,adverb;pronoun,A2
@@ -970,7 +969,7 @@ bean,noun,A2
 bear,verb;noun,A2
 beef,noun,A2
 behave,verb,A2
-behaviour,noun,A2
+behavior,noun,A2
 belong,verb,A2
 belt,noun,A2
 benefit,noun;verb,A2
@@ -1276,7 +1275,7 @@ item,noun,A2
 itself,pronoun,A2
 jam,noun,A2
 jazz,noun,A2
-jewellery,noun,A2
+jewelry,noun,A2
 joke,noun;verb,A2
 journalist,noun,A2
 jump,verb;noun,A2
@@ -1399,7 +1398,7 @@ pattern,noun,A2
 peace,noun,A2
 penny,noun,A2
 per,preposition,A2
-per cent,noun;adjective;adverb,A2
+percent,noun;adjective;adverb,A2
 perform,verb,A2
 perhaps,adverb,A2
 permission,noun,A2
@@ -1437,7 +1436,6 @@ produce,verb,A2
 professional,adjective;noun,A2
 professor,noun,A2
 profile,noun,A2
-program,noun;verb,A2
 progress,noun;verb,A2
 promise,verb;noun,A2
 pronounce,verb,A2
@@ -1641,7 +1639,7 @@ traditional,adjective,A2
 trainer,noun,A2
 training,noun,A2
 transport,noun;verb,A2
-traveller,noun,A2
+traveler,noun,A2
 trouble,noun;verb,A2
 truck,noun,A2
 twin,noun;adjective,A2
@@ -1718,7 +1716,7 @@ alcoholic,adjective,B1
 amazed,adjective,B1
 ambition,noun,B1
 ambitious,adjective,B1
-analyse,verb,B1
+analyze,verb,B1
 analysis,noun,B1
 announce,verb,B1
 announcement,noun,B1
@@ -1929,7 +1927,7 @@ fancy,verb;adjective,B1
 fascinating,adjective,B1
 fashionable,adjective,B1
 fasten,verb,B1
-favour,noun;verb,B1
+favor,noun;verb,B1
 fence,noun,B1
 fighting,noun,B1
 file,noun;verb,B1
@@ -2337,7 +2335,7 @@ trick,noun;verb,B1
 truth,noun,B1
 tube,noun,B1
 typically,adverb,B1
-tyre,noun,B1
+tire,noun,B1
 ugly,adjective,B1
 unable,adjective,B1
 uncomfortable,adjective,B1
@@ -2530,7 +2528,7 @@ decoration,noun,B2
 decrease,verb;noun,B2
 deeply,adverb,B2
 defeat,verb;noun,B2
-defence,noun,B2
+defense,noun,B2
 defend,verb,B2
 delay,verb;noun,B2
 deliberate,adjective,B2
@@ -2651,11 +2649,11 @@ hell,noun,B2
 hesitate,verb,B2
 hollow,adjective,B2
 holy,adjective,B2
-honour,noun;verb,B2
+honor,noun;verb,B2
 household,noun,B2
 housing,noun,B2
 humorous,adjective,B2
-humour,noun,B2
+humor,noun,B2
 hunting,noun,B2
 illustrate,verb,B2
 illustration,noun,B2
@@ -2697,14 +2695,14 @@ judgement,noun,B2
 junior,adjective,B2
 justice,noun,B2
 justify,verb,B2
-labour,noun,B2
+labor,noun,B2
 landscape,noun,B2
 largely,adverb,B2
 launch,verb;noun,B2
 leadership,noun,B2
 league,noun,B2
 lean,verb,B2
-licence,noun,B2
+license,noun,B2
 limited,adjective,B2
 lively,adjective,B2
 load,noun;verb,B2
@@ -2754,7 +2752,7 @@ observation,noun,B2
 observe,verb,B2
 obtain,verb,B2
 occasionally,adverb,B2
-offence,noun,B2
+offense,noun,B2
 offend,verb,B2
 offensive,adjective,B2
 opening,noun,B2
