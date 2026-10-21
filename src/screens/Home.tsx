@@ -45,13 +45,10 @@ export default function Home({ progress, onOpenUnit, onSearch }: Props) {
 
       <ol className="unit-list">
         {units.map((n) => {
-          const cefr = unitWords(words, n)[0].cefr;
-          const newLevel = n === 1 || unitWords(words, n - 1)[0].cefr !== cefr;
           const record = progress.units[n];
           const known = reviewCards(progress, n).filter((id) => progress.words[id] === 'known').length;
           return (
             <li key={n} ref={n === next ? current : undefined}>
-              {newLevel && <h2 className="label unit-level">{cefr}</h2>}
               <button type="button" className="unit-row" onClick={() => onOpenUnit(n)}>
                 <span className="unit-name">Unit {n}</span>
                 {record?.done ? (

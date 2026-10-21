@@ -14,17 +14,39 @@ export interface UnitRecord {
 
 export interface Progress {
   version: 1;
+  seed: number; // 이 브라우저 전용 단어 순서. 처음 만들 때 정해지고 바뀌지 않는다
   words: Record<string, Verdict>; // 없으면 미학습
   units: Record<number, UnitRecord>; // 시작한 Unit만 존재
   settings: { showTranslation: boolean };
 }
 
-export const emptyProgress = (): Progress => ({
+export const randomSeed = () => Math.floor(Math.random() * 2 ** 32);
+
+export const emptyProgress = (seed = randomSeed()): Progress => ({
   version: 1,
+  seed,
   words: {},
   units: {},
   settings: { showTranslation: false },
 });
+
+// seed가 같으면 항상 같은 순서. 등급 구분 없이 전체를 섞는다 (mulberry32 + Fisher–Yates).
+export function shuffled<T>(items: T[], seed: number): T[] {
+  let s = seed >>> 0;
+  const rand = () => {
+    s = (s + 0x6d2b79f5) >>> 0;
+    let t = s;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 2 ** 32;
+  };
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
 
 export const unitCount = (words: Word[]) => Math.ceil(words.length / UNIT_SIZE);
 

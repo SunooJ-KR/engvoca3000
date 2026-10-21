@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { startUnit, unitCount, type Progress } from './lib/study';
 import { load, save } from './lib/storage';
-import { words } from './lib/words';
+import { applyOrder, words } from './lib/words';
 import Home from './screens/Home';
 import Review from './screens/Review';
 import Search from './screens/Search';
@@ -19,6 +19,7 @@ function parse(hash: string): Route {
 
 export default function App() {
   const [progress, setProgress] = useState(load);
+  applyOrder(progress.seed); // 이 브라우저의 단어 순서. seed가 같으면 아무 일도 하지 않는다
   const [route, setRoute] = useState(() => parse(location.hash));
 
   useEffect(() => {

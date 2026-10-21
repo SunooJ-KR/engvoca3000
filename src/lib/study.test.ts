@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest';
 import type { Word } from '../types';
-import { emptyProgress, finishUnit, judge, nextUnit, reviewCards, startUnit, stats, type Progress } from './study';
+import { emptyProgress, finishUnit, judge, nextUnit, reviewCards, shuffled, startUnit, stats, type Progress } from './study';
 
 const words: Word[] = Array.from({ length: 35 }, (_, i) => ({
   id: `w${i + 1}`,
@@ -65,4 +65,13 @@ test('out-of-range unit is ignored', () => {
   const p = emptyProgress();
   expect(startUnit(p, words, 0)).toBe(p);
   expect(startUnit(p, words, 5)).toBe(p);
+});
+
+test('shuffled: same seed same order, different seed different order', () => {
+  const ids = words.map((w) => w.id);
+  const a = shuffled(ids, 42);
+  expect(shuffled(ids, 42)).toEqual(a);
+  expect(shuffled(ids, 43)).not.toEqual(a);
+  expect([...a].sort()).toEqual([...ids].sort());
+  expect(ids).toEqual(words.map((w) => w.id)); // 원본은 그대로
 });
