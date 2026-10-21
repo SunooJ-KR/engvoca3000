@@ -4,11 +4,14 @@ import { load, save } from './lib/storage';
 import { words } from './lib/words';
 import Home from './screens/Home';
 import Review from './screens/Review';
+import Search from './screens/Search';
 import Study from './screens/Study';
 
-type Route = { name: 'home' } | { name: 'unit'; n: number };
+type Route = { name: 'home' } | { name: 'unit'; n: number } | { name: 'search'; id: string | null };
 
 function parse(hash: string): Route {
+  const s = hash.match(/^#\/search(?:\/(.+))?$/);
+  if (s) return { name: 'search', id: s[1] ? decodeURIComponent(s[1]) : null };
   const m = hash.match(/^#\/unit\/(\d+)$/);
   const n = m ? Number(m[1]) : 0;
   return n >= 1 && n <= unitCount(words) ? { name: 'unit', n } : { name: 'home' };
@@ -39,13 +42,26 @@ export default function App() {
     if (unit !== null) setProgress((p) => startUnit(p, words, unit));
   }, [unit]);
 
-  // 홈 → Unit은 기록을 쌓고(뒤로가기로 홈 복귀), Unit → Unit은 교체한다
-  const navigate = (hash: string, push: boolean) => {
-    if (push) history.pushState({ fromHome: true }, '', hash);
+  // 홈 → Unit/검색은 기록을 쌓고(뒤로가기로 홈 복귀), Unit → Unit은 교체한다.
+  // state는 "뒤로가기 하면 어디로 가는지"를 표시한다.
+  const navigate = (hash: string, push: false | 'fromHome' | 'fromSearch') => {
+    if (push) history.pushState({ [push]: true }, '', hash);
     else history.replaceState(history.state, '', hash);
     setRoute(parse(hash));
   };
   const goHome = () => (history.state?.fromHome ? history.back() : navigate('#/', false));
+
+  if (route.name === 'search') {
+    return (
+      <Search
+        progress={progress}
+        selected={route.id}
+        onSelect={(id) => navigate(`#/search/${encodeURIComponent(id)}`, 'fromSearch')}
+        onBackToList={() => (history.state?.fromSearch ? history.back() : navigate('#/search', false))}
+        onHome={goHome}
+      />
+    );
+  }
 
   if (unit !== null) {
     if (!progress.units[unit]) return null; // startUnit 반영 직전 한 프레임
@@ -53,7 +69,13 @@ export default function App() {
       onOpenUnit={(n) => navigate(`#/unit/${n}`, false)} onHome={goHome} />;
   }
 
-  return <Home progress={progress} onOpenUnit={(n) => navigate(`#/unit/${n}`, true)} />;
+  return (
+    <Home
+      progress={progress}
+      onOpenUnit={(n) => navigate(`#/unit/${n}`, 'fromHome')}
+      onSearch={() => navigate('#/search', 'fromHome')}
+    />
+  );
 }
 
 interface UnitScreenProps {

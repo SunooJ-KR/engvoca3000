@@ -5,9 +5,10 @@ import { words } from '../lib/words';
 interface Props {
   progress: Progress;
   onOpenUnit: (n: number) => void;
+  onSearch: () => void;
 }
 
-export default function Home({ progress, onOpenUnit }: Props) {
+export default function Home({ progress, onOpenUnit, onSearch }: Props) {
   const s = stats(progress, words);
   const next = nextUnit(progress, words);
   const current = useRef<HTMLLIElement>(null);
@@ -26,8 +27,12 @@ export default function Home({ progress, onOpenUnit }: Props) {
 
   return (
     <main>
+      <header className="home-top">
+        <span className="label">Oxford 3000</span>
+        <button type="button" className="btn-text" onClick={onSearch}>검색</button>
+      </header>
       <section className="home-hero">
-        <p className="label">{next === null ? 'Oxford 3000' : nextRecord ? '이어서 학습' : '다음 학습'}</p>
+        <p className="label">{next === null ? '학습 완료' : nextRecord ? '이어서 학습' : '다음 학습'}</p>
         <h1 className="display">{next === null ? '모두 완료' : `Unit ${next}`}</h1>
         {next !== null && <p className="secondary">{nextDetail}</p>}
       </section>

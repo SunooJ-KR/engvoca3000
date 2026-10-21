@@ -1,9 +1,13 @@
 import data from '../data/words.json';
 import type { Word } from '../types';
+import { UNIT_SIZE } from './study';
 
 export const words = data as Word[];
 
 const byId = new Map(words.map((w) => [w.id, w]));
+const unitById = new Map(words.map((w, i) => [w.id, Math.floor(i / UNIT_SIZE) + 1]));
+
+export const unitOf = (id: string) => unitById.get(id);
 
 // ponytail: 데이터 갱신으로 사라진 단어도 판정은 할 수 있게 자리만 채운다
 export const getWord = (id: string): Word =>
